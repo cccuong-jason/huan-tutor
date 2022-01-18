@@ -1,2 +1,2 @@
-# huan-tutor
-Hello this is a tutor
+# suggestion
+Run file manage.py in Command Line by syntax: manage.py runserver

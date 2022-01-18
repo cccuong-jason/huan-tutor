@@ -1,0 +1,55 @@
+/* Index */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #74ebd5;
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.selection {
+    display: inline-block;
+    min-width: 240px;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+input[type='checkbox'] {
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+}
+
+input[type='checkbox']:hover {
+    background-color: #ccc;
+}
+
+label {
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 4px;
+    text-transform: capitalize;
+}
+
+.btn {
+    background-color: #71be34;
+    color: #fff;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    padding: 12px 36px;
+    transition: opacity 0.2s linear;
+    min-width: 140px;
+    font-size: 18px;
+}

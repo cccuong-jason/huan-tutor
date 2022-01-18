@@ -1,0 +1,826 @@
+,id,items,quantity_items,support,items_base,quantity_items_base,items_add,quantity_items_add,confidence,lift
+0,0.0,avocado energy_bar,2.0,0.01,avocado,1.0,energy_bar,1.0,0.33333333333333337,5.555555555555556
+1,1.0,avocado herb_&_pepper,2.0,0.01,avocado,1.0,herb_&_pepper,1.0,0.33333333333333337,8.333333333333334
+2,1.0,avocado herb_&_pepper,2.0,0.01,herb_&_pepper,1.0,avocado,1.0,0.25,8.333333333333334
+3,2.0,avocado mineral_water,2.0,0.01,avocado,1.0,mineral_water,1.0,0.33333333333333337,3.703703703703704
+4,3.0,avocado muffins,2.0,0.02,avocado,1.0,muffins,1.0,0.6666666666666667,5.555555555555556
+5,4.0,avocado shrimp,2.0,0.01,avocado,1.0,shrimp,1.0,0.33333333333333337,6.666666666666667
+6,5.0,burgers champagne,2.0,0.01,champagne,1.0,burgers,1.0,0.25,3.125
+7,6.0,burgers eggs,2.0,0.02,burgers,1.0,eggs,1.0,0.25,6.25
+8,6.0,burgers eggs,2.0,0.02,eggs,1.0,burgers,1.0,0.5,6.25
+9,7.0,burgers herb_&_pepper,2.0,0.01,herb_&_pepper,1.0,burgers,1.0,0.25,3.125
+10,8.0,burgers soup,2.0,0.03,burgers,1.0,soup,1.0,0.375,4.166666666666667
+11,8.0,burgers soup,2.0,0.03,soup,1.0,burgers,1.0,0.3333333333333333,4.166666666666666
+12,9.0,butter eggs,2.0,0.01,eggs,1.0,butter,1.0,0.25,4.166666666666667
+13,10.0,butter low_fat_yogurt,2.0,0.01,low_fat_yogurt,1.0,butter,1.0,0.33333333333333337,5.555555555555556
+14,11.0,cake turkey,2.0,0.01,cake,1.0,turkey,1.0,0.25,4.166666666666667
+15,12.0,cake vegetables_mix,2.0,0.01,cake,1.0,vegetables_mix,1.0,0.25,12.5
+16,12.0,cake vegetables_mix,2.0,0.01,vegetables_mix,1.0,cake,1.0,0.5,12.5
+17,13.0,cake whole_wheat_pasta,2.0,0.02,cake,1.0,whole_wheat_pasta,1.0,0.5,8.333333333333334
+18,13.0,cake whole_wheat_pasta,2.0,0.02,whole_wheat_pasta,1.0,cake,1.0,0.33333333333333337,8.333333333333334
+19,14.0,champagne green_tea,2.0,0.02,champagne,1.0,green_tea,1.0,0.5,6.25
+20,14.0,champagne green_tea,2.0,0.02,green_tea,1.0,champagne,1.0,0.25,6.25
+21,15.0,champagne pancakes,2.0,0.01,champagne,1.0,pancakes,1.0,0.25,3.125
+22,16.0,champagne shrimp,2.0,0.01,champagne,1.0,shrimp,1.0,0.25,5.0
+23,17.0,champagne tomatoes,2.0,0.01,champagne,1.0,tomatoes,1.0,0.25,3.125
+24,18.0,chicken frozen_smoothie,2.0,0.02,chicken,1.0,frozen_smoothie,1.0,0.39999999999999997,7.999999999999999
+25,18.0,chicken frozen_smoothie,2.0,0.02,frozen_smoothie,1.0,chicken,1.0,0.39999999999999997,7.999999999999999
+26,19.0,chicken grated_cheese,2.0,0.02,chicken,1.0,grated_cheese,1.0,0.39999999999999997,4.444444444444445
+27,19.0,chicken grated_cheese,2.0,0.02,grated_cheese,1.0,chicken,1.0,0.22222222222222224,4.444444444444445
+28,20.0,chicken herb_&_pepper,2.0,0.01,herb_&_pepper,1.0,chicken,1.0,0.25,5.0
+29,21.0,chicken low_fat_yogurt,2.0,0.01,low_fat_yogurt,1.0,chicken,1.0,0.33333333333333337,6.666666666666667
+30,22.0,chocolate spaghetti,2.0,0.01,spaghetti,1.0,chocolate,1.0,0.25,5.0
+31,23.0,cookies vegetables_mix,2.0,0.01,vegetables_mix,1.0,cookies,1.0,0.5,10.0
+32,24.0,eggs frozen_vegetables,2.0,0.01,eggs,1.0,frozen_vegetables,1.0,0.25,3.125
+33,25.0,eggs green_tea,2.0,0.01,eggs,1.0,green_tea,1.0,0.25,3.125
+34,26.0,eggs yogurt_cake,2.0,0.01,eggs,1.0,yogurt_cake,1.0,0.25,5.0
+35,27.0,energy_bar herb_&_pepper,2.0,0.01,herb_&_pepper,1.0,energy_bar,1.0,0.25,4.166666666666667
+36,28.0,french_fries ground_beef,2.0,0.02,french_fries,1.0,ground_beef,1.0,0.22222222222222224,3.703703703703704
+37,28.0,french_fries ground_beef,2.0,0.02,ground_beef,1.0,french_fries,1.0,0.33333333333333337,3.703703703703704
+38,29.0,fresh_tuna low_fat_yogurt,2.0,0.01,low_fat_yogurt,1.0,fresh_tuna,1.0,0.33333333333333337,5.555555555555556
+39,30.0,fresh_tuna olive_oil,2.0,0.02,fresh_tuna,1.0,olive_oil,1.0,0.33333333333333337,3.703703703703704
+40,30.0,fresh_tuna olive_oil,2.0,0.02,olive_oil,1.0,fresh_tuna,1.0,0.22222222222222224,3.703703703703704
+41,31.0,frozen_smoothie pickles,2.0,0.02,frozen_smoothie,1.0,pickles,1.0,0.39999999999999997,4.999999999999999
+42,31.0,frozen_smoothie pickles,2.0,0.02,pickles,1.0,frozen_smoothie,1.0,0.25,5.0
+43,32.0,frozen_vegetables spaghetti,2.0,0.01,spaghetti,1.0,frozen_vegetables,1.0,0.25,3.125
+44,33.0,grated_cheese low_fat_yogurt,2.0,0.01,low_fat_yogurt,1.0,grated_cheese,1.0,0.33333333333333337,3.703703703703704
+45,34.0,ham herb_&_pepper,2.0,0.01,herb_&_pepper,1.0,ham,1.0,0.25,3.571428571428571
+46,35.0,ham pickles,2.0,0.02,ham,1.0,pickles,1.0,0.2857142857142857,3.571428571428571
+47,35.0,ham pickles,2.0,0.02,pickles,1.0,ham,1.0,0.25,3.571428571428571
+48,36.0,ham spaghetti,2.0,0.01,spaghetti,1.0,ham,1.0,0.25,3.571428571428571
+49,37.0,herb_&_pepper low_fat_yogurt,2.0,0.01,herb_&_pepper,1.0,low_fat_yogurt,1.0,0.25,8.333333333333334
+50,37.0,herb_&_pepper low_fat_yogurt,2.0,0.01,low_fat_yogurt,1.0,herb_&_pepper,1.0,0.33333333333333337,8.333333333333334
+51,38.0,herb_&_pepper spaghetti,2.0,0.01,herb_&_pepper,1.0,spaghetti,1.0,0.25,6.25
+52,38.0,herb_&_pepper spaghetti,2.0,0.01,spaghetti,1.0,herb_&_pepper,1.0,0.25,6.25
+53,39.0,low_fat_yogurt pancakes,2.0,0.01,low_fat_yogurt,1.0,pancakes,1.0,0.33333333333333337,4.166666666666667
+54,40.0,low_fat_yogurt parmesan_cheese,2.0,0.01,low_fat_yogurt,1.0,parmesan_cheese,1.0,0.33333333333333337,4.166666666666667
+55,41.0,low_fat_yogurt turkey,2.0,0.01,low_fat_yogurt,1.0,turkey,1.0,0.33333333333333337,5.555555555555556
+56,42.0,milk mineral_water,2.0,0.02,milk,1.0,mineral_water,1.0,0.33333333333333337,3.703703703703704
+57,42.0,milk mineral_water,2.0,0.02,mineral_water,1.0,milk,1.0,0.22222222222222224,3.703703703703704
+58,43.0,olive_oil red_wine,2.0,0.03,olive_oil,1.0,red_wine,1.0,0.3333333333333333,3.0303030303030303
+59,43.0,olive_oil red_wine,2.0,0.03,red_wine,1.0,olive_oil,1.0,0.2727272727272727,3.0303030303030303
+60,44.0,pancakes pepper,2.0,0.02,pancakes,1.0,pepper,1.0,0.25,3.571428571428571
+61,44.0,pancakes pepper,2.0,0.02,pepper,1.0,pancakes,1.0,0.2857142857142857,3.571428571428571
+62,45.0,pancakes pickles,2.0,0.02,pancakes,1.0,pickles,1.0,0.25,3.125
+63,45.0,pancakes pickles,2.0,0.02,pickles,1.0,pancakes,1.0,0.25,3.125
+64,46.0,parmesan_cheese turkey,2.0,0.02,parmesan_cheese,1.0,turkey,1.0,0.25,4.166666666666667
+65,46.0,parmesan_cheese turkey,2.0,0.02,turkey,1.0,parmesan_cheese,1.0,0.33333333333333337,4.166666666666667
+66,47.0,pepper tomatoes,2.0,0.02,pepper,1.0,tomatoes,1.0,0.2857142857142857,3.571428571428571
+67,47.0,pepper tomatoes,2.0,0.02,tomatoes,1.0,pepper,1.0,0.25,3.571428571428571
+68,48.0,pepper vegetables_mix,2.0,0.01,vegetables_mix,1.0,pepper,1.0,0.5,7.142857142857142
+69,49.0,shrimp spaghetti,2.0,0.01,spaghetti,1.0,shrimp,1.0,0.25,5.0
+70,50.0,vegetables_mix whole_wheat_pasta,2.0,0.01,vegetables_mix,1.0,whole_wheat_pasta,1.0,0.5,8.333333333333334
+71,51.0,avocado energy_bar herb_&_pepper,3.0,0.01,avocado,1.0,energy_bar herb_&_pepper,2.0,0.33333333333333337,33.333333333333336
+72,51.0,avocado energy_bar herb_&_pepper,3.0,0.01,herb_&_pepper,1.0,avocado energy_bar,2.0,0.25,25.0
+73,51.0,avocado energy_bar herb_&_pepper,3.0,0.01,avocado energy_bar,2.0,herb_&_pepper,1.0,1.0,25.0
+74,51.0,avocado energy_bar herb_&_pepper,3.0,0.01,avocado herb_&_pepper,2.0,energy_bar,1.0,1.0,16.666666666666668
+75,51.0,avocado energy_bar herb_&_pepper,3.0,0.01,energy_bar herb_&_pepper,2.0,avocado,1.0,1.0,33.333333333333336
+76,52.0,avocado mineral_water muffins,3.0,0.01,avocado,1.0,mineral_water muffins,2.0,0.33333333333333337,33.333333333333336
+77,52.0,avocado mineral_water muffins,3.0,0.01,avocado mineral_water,2.0,muffins,1.0,1.0,8.333333333333334
+78,52.0,avocado mineral_water muffins,3.0,0.01,avocado muffins,2.0,mineral_water,1.0,0.5,5.555555555555555
+79,52.0,avocado mineral_water muffins,3.0,0.01,mineral_water muffins,2.0,avocado,1.0,1.0,33.333333333333336
+80,53.0,avocado muffins shrimp,3.0,0.01,avocado,1.0,muffins shrimp,2.0,0.33333333333333337,33.333333333333336
+81,53.0,avocado muffins shrimp,3.0,0.01,avocado muffins,2.0,shrimp,1.0,0.5,10.0
+82,53.0,avocado muffins shrimp,3.0,0.01,avocado shrimp,2.0,muffins,1.0,1.0,8.333333333333334
+83,53.0,avocado muffins shrimp,3.0,0.01,muffins shrimp,2.0,avocado,1.0,1.0,33.333333333333336
+84,54.0,burgers butter eggs,3.0,0.01,eggs,1.0,burgers butter,2.0,0.25,25.0
+85,54.0,burgers butter eggs,3.0,0.01,burgers butter,2.0,eggs,1.0,1.0,25.0
+86,54.0,burgers butter eggs,3.0,0.01,burgers eggs,2.0,butter,1.0,0.5,8.333333333333334
+87,54.0,burgers butter eggs,3.0,0.01,butter eggs,2.0,burgers,1.0,1.0,12.5
+88,55.0,burgers butter frozen_vegetables,3.0,0.01,burgers butter,2.0,frozen_vegetables,1.0,1.0,12.5
+89,55.0,burgers butter frozen_vegetables,3.0,0.01,burgers frozen_vegetables,2.0,butter,1.0,1.0,16.666666666666668
+90,55.0,burgers butter frozen_vegetables,3.0,0.01,butter frozen_vegetables,2.0,burgers,1.0,1.0,12.5
+91,56.0,burgers chicken frozen_smoothie,3.0,0.01,burgers chicken,2.0,frozen_smoothie,1.0,1.0,20.0
+92,56.0,burgers chicken frozen_smoothie,3.0,0.01,burgers frozen_smoothie,2.0,chicken,1.0,1.0,20.0
+93,56.0,burgers chicken frozen_smoothie,3.0,0.01,chicken frozen_smoothie,2.0,burgers,1.0,0.5,6.25
+94,57.0,burgers chicken meatballs,3.0,0.01,burgers chicken,2.0,meatballs,1.0,1.0,11.11111111111111
+95,57.0,burgers chicken meatballs,3.0,0.01,burgers meatballs,2.0,chicken,1.0,1.0,20.0
+96,57.0,burgers chicken meatballs,3.0,0.01,chicken meatballs,2.0,burgers,1.0,1.0,12.5
+97,58.0,burgers chicken soup,3.0,0.01,burgers chicken,2.0,soup,1.0,1.0,11.11111111111111
+98,58.0,burgers chicken soup,3.0,0.01,burgers soup,2.0,chicken,1.0,0.33333333333333337,6.666666666666667
+99,58.0,burgers chicken soup,3.0,0.01,chicken soup,2.0,burgers,1.0,1.0,12.5
+100,59.0,burgers eggs frozen_vegetables,3.0,0.01,eggs,1.0,burgers frozen_vegetables,2.0,0.25,25.0
+101,59.0,burgers eggs frozen_vegetables,3.0,0.01,burgers eggs,2.0,frozen_vegetables,1.0,0.5,6.25
+102,59.0,burgers eggs frozen_vegetables,3.0,0.01,burgers frozen_vegetables,2.0,eggs,1.0,1.0,25.0
+103,59.0,burgers eggs frozen_vegetables,3.0,0.01,eggs frozen_vegetables,2.0,burgers,1.0,1.0,12.5
+104,60.0,burgers eggs green_tea,3.0,0.01,eggs,1.0,burgers green_tea,2.0,0.25,25.0
+105,60.0,burgers eggs green_tea,3.0,0.01,burgers eggs,2.0,green_tea,1.0,0.5,6.25
+106,60.0,burgers eggs green_tea,3.0,0.01,burgers green_tea,2.0,eggs,1.0,1.0,25.0
+107,60.0,burgers eggs green_tea,3.0,0.01,eggs green_tea,2.0,burgers,1.0,1.0,12.5
+108,61.0,burgers frozen_smoothie meatballs,3.0,0.01,burgers frozen_smoothie,2.0,meatballs,1.0,1.0,11.11111111111111
+109,61.0,burgers frozen_smoothie meatballs,3.0,0.01,burgers meatballs,2.0,frozen_smoothie,1.0,1.0,20.0
+110,61.0,burgers frozen_smoothie meatballs,3.0,0.01,frozen_smoothie meatballs,2.0,burgers,1.0,1.0,12.5
+111,62.0,burgers frozen_smoothie soup,3.0,0.01,burgers frozen_smoothie,2.0,soup,1.0,1.0,11.11111111111111
+112,62.0,burgers frozen_smoothie soup,3.0,0.01,burgers soup,2.0,frozen_smoothie,1.0,0.33333333333333337,6.666666666666667
+113,62.0,burgers frozen_smoothie soup,3.0,0.01,frozen_smoothie soup,2.0,burgers,1.0,1.0,12.5
+114,63.0,burgers meatballs soup,3.0,0.01,burgers meatballs,2.0,soup,1.0,1.0,11.11111111111111
+115,63.0,burgers meatballs soup,3.0,0.01,burgers soup,2.0,meatballs,1.0,0.33333333333333337,3.703703703703704
+116,63.0,burgers meatballs soup,3.0,0.01,meatballs soup,2.0,burgers,1.0,1.0,12.5
+117,64.0,burgers muffins soup,3.0,0.01,burgers muffins,2.0,soup,1.0,1.0,11.11111111111111
+118,64.0,burgers muffins soup,3.0,0.01,muffins soup,2.0,burgers,1.0,1.0,12.5
+119,65.0,butter eggs frozen_vegetables,3.0,0.01,eggs,1.0,butter frozen_vegetables,2.0,0.25,25.0
+120,65.0,butter eggs frozen_vegetables,3.0,0.01,butter eggs,2.0,frozen_vegetables,1.0,1.0,12.5
+121,65.0,butter eggs frozen_vegetables,3.0,0.01,butter frozen_vegetables,2.0,eggs,1.0,1.0,25.0
+122,65.0,butter eggs frozen_vegetables,3.0,0.01,eggs frozen_vegetables,2.0,butter,1.0,1.0,16.666666666666668
+123,66.0,butter escalope yogurt_cake,3.0,0.01,butter escalope,2.0,yogurt_cake,1.0,1.0,20.0
+124,66.0,butter escalope yogurt_cake,3.0,0.01,butter yogurt_cake,2.0,escalope,1.0,1.0,8.333333333333334
+125,66.0,butter escalope yogurt_cake,3.0,0.01,escalope yogurt_cake,2.0,butter,1.0,1.0,16.666666666666668
+126,67.0,butter fresh_tuna low_fat_yogurt,3.0,0.01,low_fat_yogurt,1.0,butter fresh_tuna,2.0,0.33333333333333337,33.333333333333336
+127,67.0,butter fresh_tuna low_fat_yogurt,3.0,0.01,butter fresh_tuna,2.0,low_fat_yogurt,1.0,1.0,33.333333333333336
+128,67.0,butter fresh_tuna low_fat_yogurt,3.0,0.01,butter low_fat_yogurt,2.0,fresh_tuna,1.0,1.0,16.666666666666668
+129,67.0,butter fresh_tuna low_fat_yogurt,3.0,0.01,fresh_tuna low_fat_yogurt,2.0,butter,1.0,1.0,16.666666666666668
+130,68.0,butter fresh_tuna pancakes,3.0,0.01,butter fresh_tuna,2.0,pancakes,1.0,1.0,12.5
+131,68.0,butter fresh_tuna pancakes,3.0,0.01,butter pancakes,2.0,fresh_tuna,1.0,1.0,16.666666666666668
+132,68.0,butter fresh_tuna pancakes,3.0,0.01,fresh_tuna pancakes,2.0,butter,1.0,1.0,16.666666666666668
+133,69.0,butter grated_cheese ham,3.0,0.01,butter grated_cheese,2.0,ham,1.0,1.0,14.285714285714285
+134,69.0,butter grated_cheese ham,3.0,0.01,butter ham,2.0,grated_cheese,1.0,1.0,11.11111111111111
+135,69.0,butter grated_cheese ham,3.0,0.01,grated_cheese ham,2.0,butter,1.0,1.0,16.666666666666668
+136,70.0,butter low_fat_yogurt pancakes,3.0,0.01,low_fat_yogurt,1.0,butter pancakes,2.0,0.33333333333333337,33.333333333333336
+137,70.0,butter low_fat_yogurt pancakes,3.0,0.01,butter low_fat_yogurt,2.0,pancakes,1.0,1.0,12.5
+138,70.0,butter low_fat_yogurt pancakes,3.0,0.01,butter pancakes,2.0,low_fat_yogurt,1.0,1.0,33.333333333333336
+139,70.0,butter low_fat_yogurt pancakes,3.0,0.01,low_fat_yogurt pancakes,2.0,butter,1.0,1.0,16.666666666666668
+140,71.0,butter pepper tomatoes,3.0,0.01,butter pepper,2.0,tomatoes,1.0,1.0,12.5
+141,71.0,butter pepper tomatoes,3.0,0.01,butter tomatoes,2.0,pepper,1.0,1.0,14.285714285714285
+142,71.0,butter pepper tomatoes,3.0,0.01,pepper tomatoes,2.0,butter,1.0,0.5,8.333333333333334
+143,72.0,butter pepper whole_wheat_rice,3.0,0.01,butter pepper,2.0,whole_wheat_rice,1.0,1.0,20.0
+144,72.0,butter pepper whole_wheat_rice,3.0,0.01,butter whole_wheat_rice,2.0,pepper,1.0,1.0,14.285714285714285
+145,72.0,butter pepper whole_wheat_rice,3.0,0.01,pepper whole_wheat_rice,2.0,butter,1.0,1.0,16.666666666666668
+146,73.0,butter tomatoes whole_wheat_rice,3.0,0.01,butter tomatoes,2.0,whole_wheat_rice,1.0,1.0,20.0
+147,73.0,butter tomatoes whole_wheat_rice,3.0,0.01,butter whole_wheat_rice,2.0,tomatoes,1.0,1.0,12.5
+148,73.0,butter tomatoes whole_wheat_rice,3.0,0.01,tomatoes whole_wheat_rice,2.0,butter,1.0,1.0,16.666666666666668
+149,74.0,cake escalope turkey,3.0,0.01,cake,1.0,escalope turkey,2.0,0.25,12.5
+150,74.0,cake escalope turkey,3.0,0.01,cake escalope,2.0,turkey,1.0,1.0,16.666666666666668
+151,74.0,cake escalope turkey,3.0,0.01,cake turkey,2.0,escalope,1.0,1.0,8.333333333333334
+152,74.0,cake escalope turkey,3.0,0.01,escalope turkey,2.0,cake,1.0,0.5,12.5
+153,75.0,cake olive_oil whole_wheat_pasta,3.0,0.01,cake,1.0,olive_oil whole_wheat_pasta,2.0,0.25,25.0
+154,75.0,cake olive_oil whole_wheat_pasta,3.0,0.01,cake olive_oil,2.0,whole_wheat_pasta,1.0,1.0,16.666666666666668
+155,75.0,cake olive_oil whole_wheat_pasta,3.0,0.01,cake whole_wheat_pasta,2.0,olive_oil,1.0,0.5,5.555555555555555
+156,75.0,cake olive_oil whole_wheat_pasta,3.0,0.01,olive_oil whole_wheat_pasta,2.0,cake,1.0,1.0,25.0
+157,76.0,cake vegetables_mix whole_wheat_pasta,3.0,0.01,cake,1.0,vegetables_mix whole_wheat_pasta,2.0,0.25,25.0
+158,76.0,cake vegetables_mix whole_wheat_pasta,3.0,0.01,vegetables_mix,1.0,cake whole_wheat_pasta,2.0,0.5,25.0
+159,76.0,cake vegetables_mix whole_wheat_pasta,3.0,0.01,cake vegetables_mix,2.0,whole_wheat_pasta,1.0,1.0,16.666666666666668
+160,76.0,cake vegetables_mix whole_wheat_pasta,3.0,0.01,cake whole_wheat_pasta,2.0,vegetables_mix,1.0,0.5,25.0
+161,76.0,cake vegetables_mix whole_wheat_pasta,3.0,0.01,vegetables_mix whole_wheat_pasta,2.0,cake,1.0,1.0,25.0
+162,77.0,champagne green_tea tomatoes,3.0,0.01,champagne,1.0,green_tea tomatoes,2.0,0.25,25.0
+163,77.0,champagne green_tea tomatoes,3.0,0.01,champagne green_tea,2.0,tomatoes,1.0,0.5,6.25
+164,77.0,champagne green_tea tomatoes,3.0,0.01,champagne tomatoes,2.0,green_tea,1.0,1.0,12.5
+165,77.0,champagne green_tea tomatoes,3.0,0.01,green_tea tomatoes,2.0,champagne,1.0,1.0,25.0
+166,78.0,champagne mineral_water olive_oil,3.0,0.01,champagne,1.0,mineral_water olive_oil,2.0,0.25,25.0
+167,78.0,champagne mineral_water olive_oil,3.0,0.01,champagne mineral_water,2.0,olive_oil,1.0,1.0,11.11111111111111
+168,78.0,champagne mineral_water olive_oil,3.0,0.01,champagne olive_oil,2.0,mineral_water,1.0,1.0,11.11111111111111
+169,78.0,champagne mineral_water olive_oil,3.0,0.01,mineral_water olive_oil,2.0,champagne,1.0,1.0,25.0
+170,79.0,champagne mineral_water pancakes,3.0,0.01,champagne,1.0,mineral_water pancakes,2.0,0.25,12.5
+171,79.0,champagne mineral_water pancakes,3.0,0.01,champagne mineral_water,2.0,pancakes,1.0,1.0,12.5
+172,79.0,champagne mineral_water pancakes,3.0,0.01,champagne pancakes,2.0,mineral_water,1.0,1.0,11.11111111111111
+173,79.0,champagne mineral_water pancakes,3.0,0.01,mineral_water pancakes,2.0,champagne,1.0,0.5,12.5
+174,80.0,champagne mineral_water shrimp,3.0,0.01,champagne,1.0,mineral_water shrimp,2.0,0.25,25.0
+175,80.0,champagne mineral_water shrimp,3.0,0.01,champagne mineral_water,2.0,shrimp,1.0,1.0,20.0
+176,80.0,champagne mineral_water shrimp,3.0,0.01,champagne shrimp,2.0,mineral_water,1.0,1.0,11.11111111111111
+177,80.0,champagne mineral_water shrimp,3.0,0.01,mineral_water shrimp,2.0,champagne,1.0,1.0,25.0
+178,81.0,champagne olive_oil pancakes,3.0,0.01,champagne,1.0,olive_oil pancakes,2.0,0.25,25.0
+179,81.0,champagne olive_oil pancakes,3.0,0.01,champagne olive_oil,2.0,pancakes,1.0,1.0,12.5
+180,81.0,champagne olive_oil pancakes,3.0,0.01,champagne pancakes,2.0,olive_oil,1.0,1.0,11.11111111111111
+181,81.0,champagne olive_oil pancakes,3.0,0.01,olive_oil pancakes,2.0,champagne,1.0,1.0,25.0
+182,82.0,champagne olive_oil shrimp,3.0,0.01,champagne,1.0,olive_oil shrimp,2.0,0.25,25.0
+183,82.0,champagne olive_oil shrimp,3.0,0.01,champagne olive_oil,2.0,shrimp,1.0,1.0,20.0
+184,82.0,champagne olive_oil shrimp,3.0,0.01,champagne shrimp,2.0,olive_oil,1.0,1.0,11.11111111111111
+185,82.0,champagne olive_oil shrimp,3.0,0.01,olive_oil shrimp,2.0,champagne,1.0,1.0,25.0
+186,83.0,champagne pancakes shrimp,3.0,0.01,champagne,1.0,pancakes shrimp,2.0,0.25,25.0
+187,83.0,champagne pancakes shrimp,3.0,0.01,champagne pancakes,2.0,shrimp,1.0,1.0,20.0
+188,83.0,champagne pancakes shrimp,3.0,0.01,champagne shrimp,2.0,pancakes,1.0,1.0,12.5
+189,83.0,champagne pancakes shrimp,3.0,0.01,pancakes shrimp,2.0,champagne,1.0,1.0,25.0
+190,84.0,chicken energy_bar parmesan_cheese,3.0,0.01,chicken energy_bar,2.0,parmesan_cheese,1.0,1.0,12.5
+191,84.0,chicken energy_bar parmesan_cheese,3.0,0.01,chicken parmesan_cheese,2.0,energy_bar,1.0,1.0,16.666666666666668
+192,84.0,chicken energy_bar parmesan_cheese,3.0,0.01,energy_bar parmesan_cheese,2.0,chicken,1.0,1.0,20.0
+193,85.0,chicken frozen_smoothie frozen_vegetables,3.0,0.01,chicken frozen_smoothie,2.0,frozen_vegetables,1.0,0.5,6.25
+194,85.0,chicken frozen_smoothie frozen_vegetables,3.0,0.01,chicken frozen_vegetables,2.0,frozen_smoothie,1.0,1.0,20.0
+195,85.0,chicken frozen_smoothie frozen_vegetables,3.0,0.01,frozen_smoothie frozen_vegetables,2.0,chicken,1.0,1.0,20.0
+196,86.0,chicken frozen_smoothie meatballs,3.0,0.01,chicken frozen_smoothie,2.0,meatballs,1.0,0.5,5.555555555555555
+197,86.0,chicken frozen_smoothie meatballs,3.0,0.01,chicken meatballs,2.0,frozen_smoothie,1.0,1.0,20.0
+198,86.0,chicken frozen_smoothie meatballs,3.0,0.01,frozen_smoothie meatballs,2.0,chicken,1.0,1.0,20.0
+199,87.0,chicken frozen_smoothie milk,3.0,0.01,chicken frozen_smoothie,2.0,milk,1.0,0.5,8.333333333333334
+200,87.0,chicken frozen_smoothie milk,3.0,0.01,chicken milk,2.0,frozen_smoothie,1.0,1.0,20.0
+201,87.0,chicken frozen_smoothie milk,3.0,0.01,frozen_smoothie milk,2.0,chicken,1.0,1.0,20.0
+202,88.0,chicken frozen_smoothie soup,3.0,0.01,chicken frozen_smoothie,2.0,soup,1.0,0.5,5.555555555555555
+203,88.0,chicken frozen_smoothie soup,3.0,0.01,chicken soup,2.0,frozen_smoothie,1.0,1.0,20.0
+204,88.0,chicken frozen_smoothie soup,3.0,0.01,frozen_smoothie soup,2.0,chicken,1.0,1.0,20.0
+205,89.0,chicken frozen_vegetables milk,3.0,0.01,chicken frozen_vegetables,2.0,milk,1.0,1.0,16.666666666666668
+206,89.0,chicken frozen_vegetables milk,3.0,0.01,chicken milk,2.0,frozen_vegetables,1.0,1.0,12.5
+207,89.0,chicken frozen_vegetables milk,3.0,0.01,frozen_vegetables milk,2.0,chicken,1.0,1.0,20.0
+208,90.0,chicken grated_cheese green_tea,3.0,0.01,chicken grated_cheese,2.0,green_tea,1.0,0.5,6.25
+209,90.0,chicken grated_cheese green_tea,3.0,0.01,chicken green_tea,2.0,grated_cheese,1.0,1.0,11.11111111111111
+210,90.0,chicken grated_cheese green_tea,3.0,0.01,grated_cheese green_tea,2.0,chicken,1.0,1.0,20.0
+211,91.0,chicken grated_cheese herb_&_pepper,3.0,0.01,herb_&_pepper,1.0,chicken grated_cheese,2.0,0.25,12.5
+212,91.0,chicken grated_cheese herb_&_pepper,3.0,0.01,chicken grated_cheese,2.0,herb_&_pepper,1.0,0.5,12.5
+213,91.0,chicken grated_cheese herb_&_pepper,3.0,0.01,chicken herb_&_pepper,2.0,grated_cheese,1.0,1.0,11.11111111111111
+214,91.0,chicken grated_cheese herb_&_pepper,3.0,0.01,grated_cheese herb_&_pepper,2.0,chicken,1.0,1.0,20.0
+215,92.0,chicken grated_cheese low_fat_yogurt,3.0,0.01,low_fat_yogurt,1.0,chicken grated_cheese,2.0,0.33333333333333337,16.666666666666668
+216,92.0,chicken grated_cheese low_fat_yogurt,3.0,0.01,chicken grated_cheese,2.0,low_fat_yogurt,1.0,0.5,16.666666666666668
+217,92.0,chicken grated_cheese low_fat_yogurt,3.0,0.01,chicken low_fat_yogurt,2.0,grated_cheese,1.0,1.0,11.11111111111111
+218,92.0,chicken grated_cheese low_fat_yogurt,3.0,0.01,grated_cheese low_fat_yogurt,2.0,chicken,1.0,1.0,20.0
+219,93.0,chicken grated_cheese red_wine,3.0,0.01,chicken grated_cheese,2.0,red_wine,1.0,0.5,4.545454545454546
+220,93.0,chicken grated_cheese red_wine,3.0,0.01,chicken red_wine,2.0,grated_cheese,1.0,1.0,11.11111111111111
+221,93.0,chicken grated_cheese red_wine,3.0,0.01,grated_cheese red_wine,2.0,chicken,1.0,0.5,10.0
+222,94.0,chicken green_tea red_wine,3.0,0.01,chicken green_tea,2.0,red_wine,1.0,1.0,9.090909090909092
+223,94.0,chicken green_tea red_wine,3.0,0.01,chicken red_wine,2.0,green_tea,1.0,1.0,12.5
+224,94.0,chicken green_tea red_wine,3.0,0.01,green_tea red_wine,2.0,chicken,1.0,0.5,10.0
+225,95.0,chicken herb_&_pepper low_fat_yogurt,3.0,0.01,herb_&_pepper,1.0,chicken low_fat_yogurt,2.0,0.25,25.0
+226,95.0,chicken herb_&_pepper low_fat_yogurt,3.0,0.01,low_fat_yogurt,1.0,chicken herb_&_pepper,2.0,0.33333333333333337,33.333333333333336
+227,95.0,chicken herb_&_pepper low_fat_yogurt,3.0,0.01,chicken herb_&_pepper,2.0,low_fat_yogurt,1.0,1.0,33.333333333333336
+228,95.0,chicken herb_&_pepper low_fat_yogurt,3.0,0.01,chicken low_fat_yogurt,2.0,herb_&_pepper,1.0,1.0,25.0
+229,95.0,chicken herb_&_pepper low_fat_yogurt,3.0,0.01,herb_&_pepper low_fat_yogurt,2.0,chicken,1.0,1.0,20.0
+230,96.0,chicken meatballs soup,3.0,0.01,chicken meatballs,2.0,soup,1.0,1.0,11.11111111111111
+231,96.0,chicken meatballs soup,3.0,0.01,chicken soup,2.0,meatballs,1.0,1.0,11.11111111111111
+232,96.0,chicken meatballs soup,3.0,0.01,meatballs soup,2.0,chicken,1.0,1.0,20.0
+233,97.0,chocolate french_fries green_tea,3.0,0.01,chocolate french_fries,2.0,green_tea,1.0,1.0,12.5
+234,97.0,chocolate french_fries green_tea,3.0,0.01,chocolate green_tea,2.0,french_fries,1.0,1.0,11.11111111111111
+235,97.0,chocolate french_fries green_tea,3.0,0.01,french_fries green_tea,2.0,chocolate,1.0,0.5,10.0
+236,98.0,chocolate muffins spaghetti,3.0,0.01,spaghetti,1.0,chocolate muffins,2.0,0.25,25.0
+237,98.0,chocolate muffins spaghetti,3.0,0.01,chocolate muffins,2.0,spaghetti,1.0,1.0,25.0
+238,98.0,chocolate muffins spaghetti,3.0,0.01,chocolate spaghetti,2.0,muffins,1.0,1.0,8.333333333333334
+239,98.0,chocolate muffins spaghetti,3.0,0.01,muffins spaghetti,2.0,chocolate,1.0,1.0,20.0
+240,99.0,cookies escalope french_fries,3.0,0.01,cookies escalope,2.0,french_fries,1.0,1.0,11.11111111111111
+241,99.0,cookies escalope french_fries,3.0,0.01,cookies french_fries,2.0,escalope,1.0,1.0,8.333333333333334
+242,99.0,cookies escalope french_fries,3.0,0.01,escalope french_fries,2.0,cookies,1.0,0.5,10.0
+243,100.0,cookies escalope pancakes,3.0,0.01,cookies escalope,2.0,pancakes,1.0,1.0,12.5
+244,100.0,cookies escalope pancakes,3.0,0.01,cookies pancakes,2.0,escalope,1.0,1.0,8.333333333333334
+245,100.0,cookies escalope pancakes,3.0,0.01,escalope pancakes,2.0,cookies,1.0,1.0,20.0
+246,101.0,cookies french_fries pancakes,3.0,0.01,cookies french_fries,2.0,pancakes,1.0,1.0,12.5
+247,101.0,cookies french_fries pancakes,3.0,0.01,cookies pancakes,2.0,french_fries,1.0,1.0,11.11111111111111
+248,101.0,cookies french_fries pancakes,3.0,0.01,french_fries pancakes,2.0,cookies,1.0,1.0,20.0
+249,102.0,cookies frozen_smoothie ground_beef,3.0,0.01,cookies frozen_smoothie,2.0,ground_beef,1.0,1.0,16.666666666666668
+250,102.0,cookies frozen_smoothie ground_beef,3.0,0.01,cookies ground_beef,2.0,frozen_smoothie,1.0,1.0,20.0
+251,102.0,cookies frozen_smoothie ground_beef,3.0,0.01,frozen_smoothie ground_beef,2.0,cookies,1.0,1.0,20.0
+252,103.0,cookies frozen_smoothie pickles,3.0,0.01,cookies frozen_smoothie,2.0,pickles,1.0,1.0,12.5
+253,103.0,cookies frozen_smoothie pickles,3.0,0.01,cookies pickles,2.0,frozen_smoothie,1.0,1.0,20.0
+254,103.0,cookies frozen_smoothie pickles,3.0,0.01,frozen_smoothie pickles,2.0,cookies,1.0,0.5,10.0
+255,104.0,cookies ground_beef pickles,3.0,0.01,cookies ground_beef,2.0,pickles,1.0,1.0,12.5
+256,104.0,cookies ground_beef pickles,3.0,0.01,cookies pickles,2.0,ground_beef,1.0,1.0,16.666666666666668
+257,104.0,cookies ground_beef pickles,3.0,0.01,ground_beef pickles,2.0,cookies,1.0,1.0,20.0
+258,105.0,cookies milk mineral_water,3.0,0.01,cookies milk,2.0,mineral_water,1.0,1.0,11.11111111111111
+259,105.0,cookies milk mineral_water,3.0,0.01,cookies mineral_water,2.0,milk,1.0,1.0,16.666666666666668
+260,105.0,cookies milk mineral_water,3.0,0.01,milk mineral_water,2.0,cookies,1.0,0.5,10.0
+261,106.0,cookies pepper vegetables_mix,3.0,0.01,vegetables_mix,1.0,cookies pepper,2.0,0.5,50.0
+262,106.0,cookies pepper vegetables_mix,3.0,0.01,cookies pepper,2.0,vegetables_mix,1.0,1.0,50.0
+263,106.0,cookies pepper vegetables_mix,3.0,0.01,cookies vegetables_mix,2.0,pepper,1.0,1.0,14.285714285714285
+264,106.0,cookies pepper vegetables_mix,3.0,0.01,pepper vegetables_mix,2.0,cookies,1.0,1.0,20.0
+265,107.0,energy_bar fresh_tuna ham,3.0,0.01,energy_bar fresh_tuna,2.0,ham,1.0,1.0,14.285714285714285
+266,107.0,energy_bar fresh_tuna ham,3.0,0.01,energy_bar ham,2.0,fresh_tuna,1.0,1.0,16.666666666666668
+267,107.0,energy_bar fresh_tuna ham,3.0,0.01,fresh_tuna ham,2.0,energy_bar,1.0,1.0,16.666666666666668
+268,108.0,energy_bar fresh_tuna milk,3.0,0.01,energy_bar fresh_tuna,2.0,milk,1.0,1.0,16.666666666666668
+269,108.0,energy_bar fresh_tuna milk,3.0,0.01,energy_bar milk,2.0,fresh_tuna,1.0,1.0,16.666666666666668
+270,108.0,energy_bar fresh_tuna milk,3.0,0.01,fresh_tuna milk,2.0,energy_bar,1.0,1.0,16.666666666666668
+271,109.0,energy_bar fresh_tuna pickles,3.0,0.01,energy_bar fresh_tuna,2.0,pickles,1.0,1.0,12.5
+272,109.0,energy_bar fresh_tuna pickles,3.0,0.01,energy_bar pickles,2.0,fresh_tuna,1.0,1.0,16.666666666666668
+273,109.0,energy_bar fresh_tuna pickles,3.0,0.01,fresh_tuna pickles,2.0,energy_bar,1.0,1.0,16.666666666666668
+274,110.0,energy_bar ham milk,3.0,0.01,energy_bar ham,2.0,milk,1.0,1.0,16.666666666666668
+275,110.0,energy_bar ham milk,3.0,0.01,energy_bar milk,2.0,ham,1.0,1.0,14.285714285714285
+276,110.0,energy_bar ham milk,3.0,0.01,ham milk,2.0,energy_bar,1.0,1.0,16.666666666666668
+277,111.0,energy_bar ham pickles,3.0,0.01,energy_bar ham,2.0,pickles,1.0,1.0,12.5
+278,111.0,energy_bar ham pickles,3.0,0.01,energy_bar pickles,2.0,ham,1.0,1.0,14.285714285714285
+279,111.0,energy_bar ham pickles,3.0,0.01,ham pickles,2.0,energy_bar,1.0,0.5,8.333333333333334
+280,112.0,energy_bar milk pickles,3.0,0.01,energy_bar milk,2.0,pickles,1.0,1.0,12.5
+281,112.0,energy_bar milk pickles,3.0,0.01,energy_bar pickles,2.0,milk,1.0,1.0,16.666666666666668
+282,112.0,energy_bar milk pickles,3.0,0.01,milk pickles,2.0,energy_bar,1.0,1.0,16.666666666666668
+283,113.0,energy_bar turkey whole_wheat_pasta,3.0,0.01,energy_bar turkey,2.0,whole_wheat_pasta,1.0,1.0,16.666666666666668
+284,113.0,energy_bar turkey whole_wheat_pasta,3.0,0.01,energy_bar whole_wheat_pasta,2.0,turkey,1.0,1.0,16.666666666666668
+285,113.0,energy_bar turkey whole_wheat_pasta,3.0,0.01,turkey whole_wheat_pasta,2.0,energy_bar,1.0,1.0,16.666666666666668
+286,114.0,escalope french_fries pancakes,3.0,0.01,escalope french_fries,2.0,pancakes,1.0,0.5,6.25
+287,114.0,escalope french_fries pancakes,3.0,0.01,escalope pancakes,2.0,french_fries,1.0,1.0,11.11111111111111
+288,114.0,escalope french_fries pancakes,3.0,0.01,french_fries pancakes,2.0,escalope,1.0,1.0,8.333333333333334
+289,115.0,escalope french_fries soup,3.0,0.01,escalope french_fries,2.0,soup,1.0,0.5,5.555555555555555
+290,115.0,escalope french_fries soup,3.0,0.01,escalope soup,2.0,french_fries,1.0,1.0,11.11111111111111
+291,115.0,escalope french_fries soup,3.0,0.01,french_fries soup,2.0,escalope,1.0,1.0,8.333333333333334
+292,116.0,escalope fresh_tuna olive_oil,3.0,0.01,escalope fresh_tuna,2.0,olive_oil,1.0,1.0,11.11111111111111
+293,116.0,escalope fresh_tuna olive_oil,3.0,0.01,escalope olive_oil,2.0,fresh_tuna,1.0,1.0,16.666666666666668
+294,116.0,escalope fresh_tuna olive_oil,3.0,0.01,fresh_tuna olive_oil,2.0,escalope,1.0,0.5,4.166666666666667
+295,117.0,escalope frozen_vegetables shrimp,3.0,0.01,escalope frozen_vegetables,2.0,shrimp,1.0,1.0,20.0
+296,117.0,escalope frozen_vegetables shrimp,3.0,0.01,escalope shrimp,2.0,frozen_vegetables,1.0,1.0,12.5
+297,117.0,escalope frozen_vegetables shrimp,3.0,0.01,frozen_vegetables shrimp,2.0,escalope,1.0,1.0,8.333333333333334
+298,118.0,escalope frozen_vegetables spaghetti,3.0,0.01,spaghetti,1.0,escalope frozen_vegetables,2.0,0.25,25.0
+299,118.0,escalope frozen_vegetables spaghetti,3.0,0.01,escalope frozen_vegetables,2.0,spaghetti,1.0,1.0,25.0
+300,118.0,escalope frozen_vegetables spaghetti,3.0,0.01,escalope spaghetti,2.0,frozen_vegetables,1.0,1.0,12.5
+301,118.0,escalope frozen_vegetables spaghetti,3.0,0.01,frozen_vegetables spaghetti,2.0,escalope,1.0,1.0,8.333333333333334
+302,119.0,escalope grated_cheese pickles,3.0,0.01,escalope grated_cheese,2.0,pickles,1.0,0.5,6.25
+303,119.0,escalope grated_cheese pickles,3.0,0.01,escalope pickles,2.0,grated_cheese,1.0,1.0,11.11111111111111
+304,119.0,escalope grated_cheese pickles,3.0,0.01,grated_cheese pickles,2.0,escalope,1.0,1.0,8.333333333333334
+305,120.0,escalope grated_cheese red_wine,3.0,0.01,escalope grated_cheese,2.0,red_wine,1.0,0.5,4.545454545454546
+306,120.0,escalope grated_cheese red_wine,3.0,0.01,escalope red_wine,2.0,grated_cheese,1.0,0.5,5.555555555555555
+307,120.0,escalope grated_cheese red_wine,3.0,0.01,grated_cheese red_wine,2.0,escalope,1.0,0.5,4.166666666666667
+308,121.0,escalope meatballs parmesan_cheese,3.0,0.01,escalope meatballs,2.0,parmesan_cheese,1.0,1.0,12.5
+309,121.0,escalope meatballs parmesan_cheese,3.0,0.01,escalope parmesan_cheese,2.0,meatballs,1.0,0.5,5.555555555555555
+310,121.0,escalope meatballs parmesan_cheese,3.0,0.01,meatballs parmesan_cheese,2.0,escalope,1.0,1.0,8.333333333333334
+311,122.0,escalope meatballs turkey,3.0,0.01,escalope meatballs,2.0,turkey,1.0,1.0,16.666666666666668
+312,122.0,escalope meatballs turkey,3.0,0.01,escalope turkey,2.0,meatballs,1.0,0.5,5.555555555555555
+313,122.0,escalope meatballs turkey,3.0,0.01,meatballs turkey,2.0,escalope,1.0,1.0,8.333333333333334
+314,123.0,escalope parmesan_cheese red_wine,3.0,0.01,escalope parmesan_cheese,2.0,red_wine,1.0,0.5,4.545454545454546
+315,123.0,escalope parmesan_cheese red_wine,3.0,0.01,escalope red_wine,2.0,parmesan_cheese,1.0,0.5,6.25
+316,123.0,escalope parmesan_cheese red_wine,3.0,0.01,parmesan_cheese red_wine,2.0,escalope,1.0,0.5,4.166666666666667
+317,124.0,escalope parmesan_cheese turkey,3.0,0.01,escalope parmesan_cheese,2.0,turkey,1.0,0.5,8.333333333333334
+318,124.0,escalope parmesan_cheese turkey,3.0,0.01,escalope turkey,2.0,parmesan_cheese,1.0,0.5,6.25
+319,124.0,escalope parmesan_cheese turkey,3.0,0.01,parmesan_cheese turkey,2.0,escalope,1.0,0.5,4.166666666666667
+320,125.0,escalope shrimp spaghetti,3.0,0.01,spaghetti,1.0,escalope shrimp,2.0,0.25,25.0
+321,125.0,escalope shrimp spaghetti,3.0,0.01,escalope shrimp,2.0,spaghetti,1.0,1.0,25.0
+322,125.0,escalope shrimp spaghetti,3.0,0.01,escalope spaghetti,2.0,shrimp,1.0,1.0,20.0
+323,125.0,escalope shrimp spaghetti,3.0,0.01,shrimp spaghetti,2.0,escalope,1.0,1.0,8.333333333333334
+324,126.0,french_fries green_tea muffins,3.0,0.01,french_fries green_tea,2.0,muffins,1.0,0.5,4.166666666666667
+325,126.0,french_fries green_tea muffins,3.0,0.01,french_fries muffins,2.0,green_tea,1.0,0.33333333333333337,4.166666666666667
+326,126.0,french_fries green_tea muffins,3.0,0.01,green_tea muffins,2.0,french_fries,1.0,1.0,11.11111111111111
+327,127.0,french_fries green_tea red_wine,3.0,0.01,french_fries green_tea,2.0,red_wine,1.0,0.5,4.545454545454546
+328,127.0,french_fries green_tea red_wine,3.0,0.01,french_fries red_wine,2.0,green_tea,1.0,1.0,12.5
+329,127.0,french_fries green_tea red_wine,3.0,0.01,green_tea red_wine,2.0,french_fries,1.0,0.5,5.555555555555555
+330,128.0,french_fries ground_beef muffins,3.0,0.01,french_fries ground_beef,2.0,muffins,1.0,0.5,4.166666666666667
+331,128.0,french_fries ground_beef muffins,3.0,0.01,french_fries muffins,2.0,ground_beef,1.0,0.33333333333333337,5.555555555555556
+332,128.0,french_fries ground_beef muffins,3.0,0.01,ground_beef muffins,2.0,french_fries,1.0,1.0,11.11111111111111
+333,129.0,french_fries milk muffins,3.0,0.01,french_fries milk,2.0,muffins,1.0,1.0,8.333333333333334
+334,129.0,french_fries milk muffins,3.0,0.01,french_fries muffins,2.0,milk,1.0,0.33333333333333337,5.555555555555556
+335,129.0,french_fries milk muffins,3.0,0.01,milk muffins,2.0,french_fries,1.0,1.0,11.11111111111111
+336,130.0,french_fries muffins red_wine,3.0,0.01,french_fries muffins,2.0,red_wine,1.0,0.33333333333333337,3.0303030303030307
+337,130.0,french_fries muffins red_wine,3.0,0.01,french_fries red_wine,2.0,muffins,1.0,1.0,8.333333333333334
+338,130.0,french_fries muffins red_wine,3.0,0.01,muffins red_wine,2.0,french_fries,1.0,1.0,11.11111111111111
+339,131.0,french_fries olive_oil whole_wheat_rice,3.0,0.01,french_fries olive_oil,2.0,whole_wheat_rice,1.0,1.0,20.0
+340,131.0,french_fries olive_oil whole_wheat_rice,3.0,0.01,french_fries whole_wheat_rice,2.0,olive_oil,1.0,1.0,11.11111111111111
+341,131.0,french_fries olive_oil whole_wheat_rice,3.0,0.01,olive_oil whole_wheat_rice,2.0,french_fries,1.0,1.0,11.11111111111111
+342,132.0,fresh_tuna frozen_vegetables pepper,3.0,0.01,fresh_tuna frozen_vegetables,2.0,pepper,1.0,1.0,14.285714285714285
+343,132.0,fresh_tuna frozen_vegetables pepper,3.0,0.01,fresh_tuna pepper,2.0,frozen_vegetables,1.0,1.0,12.5
+344,132.0,fresh_tuna frozen_vegetables pepper,3.0,0.01,frozen_vegetables pepper,2.0,fresh_tuna,1.0,1.0,16.666666666666668
+345,133.0,fresh_tuna ham milk,3.0,0.01,fresh_tuna ham,2.0,milk,1.0,1.0,16.666666666666668
+346,133.0,fresh_tuna ham milk,3.0,0.01,fresh_tuna milk,2.0,ham,1.0,1.0,14.285714285714285
+347,133.0,fresh_tuna ham milk,3.0,0.01,ham milk,2.0,fresh_tuna,1.0,1.0,16.666666666666668
+348,134.0,fresh_tuna ham pickles,3.0,0.01,fresh_tuna ham,2.0,pickles,1.0,1.0,12.5
+349,134.0,fresh_tuna ham pickles,3.0,0.01,fresh_tuna pickles,2.0,ham,1.0,1.0,14.285714285714285
+350,134.0,fresh_tuna ham pickles,3.0,0.01,ham pickles,2.0,fresh_tuna,1.0,0.5,8.333333333333334
+351,135.0,fresh_tuna low_fat_yogurt pancakes,3.0,0.01,low_fat_yogurt,1.0,fresh_tuna pancakes,2.0,0.33333333333333337,33.333333333333336
+352,135.0,fresh_tuna low_fat_yogurt pancakes,3.0,0.01,fresh_tuna low_fat_yogurt,2.0,pancakes,1.0,1.0,12.5
+353,135.0,fresh_tuna low_fat_yogurt pancakes,3.0,0.01,fresh_tuna pancakes,2.0,low_fat_yogurt,1.0,1.0,33.333333333333336
+354,135.0,fresh_tuna low_fat_yogurt pancakes,3.0,0.01,low_fat_yogurt pancakes,2.0,fresh_tuna,1.0,1.0,16.666666666666668
+355,136.0,fresh_tuna milk pickles,3.0,0.01,fresh_tuna milk,2.0,pickles,1.0,1.0,12.5
+356,136.0,fresh_tuna milk pickles,3.0,0.01,fresh_tuna pickles,2.0,milk,1.0,1.0,16.666666666666668
+357,136.0,fresh_tuna milk pickles,3.0,0.01,milk pickles,2.0,fresh_tuna,1.0,1.0,16.666666666666668
+358,137.0,fresh_tuna olive_oil yogurt_cake,3.0,0.01,fresh_tuna olive_oil,2.0,yogurt_cake,1.0,0.5,10.0
+359,137.0,fresh_tuna olive_oil yogurt_cake,3.0,0.01,fresh_tuna yogurt_cake,2.0,olive_oil,1.0,1.0,11.11111111111111
+360,137.0,fresh_tuna olive_oil yogurt_cake,3.0,0.01,olive_oil yogurt_cake,2.0,fresh_tuna,1.0,1.0,16.666666666666668
+361,138.0,frozen_smoothie frozen_vegetables milk,3.0,0.01,frozen_smoothie frozen_vegetables,2.0,milk,1.0,1.0,16.666666666666668
+362,138.0,frozen_smoothie frozen_vegetables milk,3.0,0.01,frozen_smoothie milk,2.0,frozen_vegetables,1.0,1.0,12.5
+363,138.0,frozen_smoothie frozen_vegetables milk,3.0,0.01,frozen_vegetables milk,2.0,frozen_smoothie,1.0,1.0,20.0
+364,139.0,frozen_smoothie grated_cheese olive_oil,3.0,0.01,frozen_smoothie grated_cheese,2.0,olive_oil,1.0,1.0,11.11111111111111
+365,139.0,frozen_smoothie grated_cheese olive_oil,3.0,0.01,frozen_smoothie olive_oil,2.0,grated_cheese,1.0,1.0,11.11111111111111
+366,139.0,frozen_smoothie grated_cheese olive_oil,3.0,0.01,grated_cheese olive_oil,2.0,frozen_smoothie,1.0,1.0,20.0
+367,140.0,frozen_smoothie ground_beef pickles,3.0,0.01,frozen_smoothie ground_beef,2.0,pickles,1.0,1.0,12.5
+368,140.0,frozen_smoothie ground_beef pickles,3.0,0.01,frozen_smoothie pickles,2.0,ground_beef,1.0,0.5,8.333333333333334
+369,140.0,frozen_smoothie ground_beef pickles,3.0,0.01,ground_beef pickles,2.0,frozen_smoothie,1.0,1.0,20.0
+370,141.0,frozen_smoothie meatballs soup,3.0,0.01,frozen_smoothie meatballs,2.0,soup,1.0,1.0,11.11111111111111
+371,141.0,frozen_smoothie meatballs soup,3.0,0.01,frozen_smoothie soup,2.0,meatballs,1.0,1.0,11.11111111111111
+372,141.0,frozen_smoothie meatballs soup,3.0,0.01,meatballs soup,2.0,frozen_smoothie,1.0,1.0,20.0
+373,142.0,frozen_vegetables meatballs mineral_water,3.0,0.01,frozen_vegetables meatballs,2.0,mineral_water,1.0,0.5,5.555555555555555
+374,142.0,frozen_vegetables meatballs mineral_water,3.0,0.01,frozen_vegetables mineral_water,2.0,meatballs,1.0,1.0,11.11111111111111
+375,142.0,frozen_vegetables meatballs mineral_water,3.0,0.01,meatballs mineral_water,2.0,frozen_vegetables,1.0,1.0,12.5
+376,143.0,frozen_vegetables shrimp spaghetti,3.0,0.01,spaghetti,1.0,frozen_vegetables shrimp,2.0,0.25,25.0
+377,143.0,frozen_vegetables shrimp spaghetti,3.0,0.01,frozen_vegetables shrimp,2.0,spaghetti,1.0,1.0,25.0
+378,143.0,frozen_vegetables shrimp spaghetti,3.0,0.01,frozen_vegetables spaghetti,2.0,shrimp,1.0,1.0,20.0
+379,143.0,frozen_vegetables shrimp spaghetti,3.0,0.01,shrimp spaghetti,2.0,frozen_vegetables,1.0,1.0,12.5
+380,144.0,grated_cheese green_tea red_wine,3.0,0.01,grated_cheese green_tea,2.0,red_wine,1.0,1.0,9.090909090909092
+381,144.0,grated_cheese green_tea red_wine,3.0,0.01,grated_cheese red_wine,2.0,green_tea,1.0,0.5,6.25
+382,144.0,grated_cheese green_tea red_wine,3.0,0.01,green_tea red_wine,2.0,grated_cheese,1.0,0.5,5.555555555555555
+383,145.0,grated_cheese herb_&_pepper low_fat_yogurt,3.0,0.01,herb_&_pepper,1.0,grated_cheese low_fat_yogurt,2.0,0.25,25.0
+384,145.0,grated_cheese herb_&_pepper low_fat_yogurt,3.0,0.01,low_fat_yogurt,1.0,grated_cheese herb_&_pepper,2.0,0.33333333333333337,33.333333333333336
+385,145.0,grated_cheese herb_&_pepper low_fat_yogurt,3.0,0.01,grated_cheese herb_&_pepper,2.0,low_fat_yogurt,1.0,1.0,33.333333333333336
+386,145.0,grated_cheese herb_&_pepper low_fat_yogurt,3.0,0.01,grated_cheese low_fat_yogurt,2.0,herb_&_pepper,1.0,1.0,25.0
+387,145.0,grated_cheese herb_&_pepper low_fat_yogurt,3.0,0.01,herb_&_pepper low_fat_yogurt,2.0,grated_cheese,1.0,1.0,11.11111111111111
+388,146.0,grated_cheese mineral_water spaghetti,3.0,0.01,spaghetti,1.0,grated_cheese mineral_water,2.0,0.25,25.0
+389,146.0,grated_cheese mineral_water spaghetti,3.0,0.01,grated_cheese mineral_water,2.0,spaghetti,1.0,1.0,25.0
+390,146.0,grated_cheese mineral_water spaghetti,3.0,0.01,grated_cheese spaghetti,2.0,mineral_water,1.0,1.0,11.11111111111111
+391,146.0,grated_cheese mineral_water spaghetti,3.0,0.01,mineral_water spaghetti,2.0,grated_cheese,1.0,1.0,11.11111111111111
+392,147.0,green_tea muffins red_wine,3.0,0.01,green_tea muffins,2.0,red_wine,1.0,1.0,9.090909090909092
+393,147.0,green_tea muffins red_wine,3.0,0.01,green_tea red_wine,2.0,muffins,1.0,0.5,4.166666666666667
+394,147.0,green_tea muffins red_wine,3.0,0.01,muffins red_wine,2.0,green_tea,1.0,1.0,12.5
+395,148.0,green_tea soup yogurt_cake,3.0,0.01,green_tea soup,2.0,yogurt_cake,1.0,1.0,20.0
+396,148.0,green_tea soup yogurt_cake,3.0,0.01,green_tea yogurt_cake,2.0,soup,1.0,1.0,11.11111111111111
+397,148.0,green_tea soup yogurt_cake,3.0,0.01,soup yogurt_cake,2.0,green_tea,1.0,1.0,12.5
+398,149.0,ground_beef meatballs shrimp,3.0,0.01,ground_beef meatballs,2.0,shrimp,1.0,1.0,20.0
+399,149.0,ground_beef meatballs shrimp,3.0,0.01,ground_beef shrimp,2.0,meatballs,1.0,1.0,11.11111111111111
+400,149.0,ground_beef meatballs shrimp,3.0,0.01,meatballs shrimp,2.0,ground_beef,1.0,1.0,16.666666666666668
+401,150.0,ham herb_&_pepper spaghetti,3.0,0.01,herb_&_pepper,1.0,ham spaghetti,2.0,0.25,25.0
+402,150.0,ham herb_&_pepper spaghetti,3.0,0.01,spaghetti,1.0,ham herb_&_pepper,2.0,0.25,25.0
+403,150.0,ham herb_&_pepper spaghetti,3.0,0.01,ham herb_&_pepper,2.0,spaghetti,1.0,1.0,25.0
+404,150.0,ham herb_&_pepper spaghetti,3.0,0.01,ham spaghetti,2.0,herb_&_pepper,1.0,1.0,25.0
+405,150.0,ham herb_&_pepper spaghetti,3.0,0.01,herb_&_pepper spaghetti,2.0,ham,1.0,1.0,14.285714285714285
+406,151.0,ham milk pickles,3.0,0.01,ham milk,2.0,pickles,1.0,1.0,12.5
+407,151.0,ham milk pickles,3.0,0.01,ham pickles,2.0,milk,1.0,0.5,8.333333333333334
+408,151.0,ham milk pickles,3.0,0.01,milk pickles,2.0,ham,1.0,1.0,14.285714285714285
+409,152.0,ham mineral_water red_wine,3.0,0.01,ham mineral_water,2.0,red_wine,1.0,1.0,9.090909090909092
+410,152.0,ham mineral_water red_wine,3.0,0.01,ham red_wine,2.0,mineral_water,1.0,1.0,11.11111111111111
+411,152.0,ham mineral_water red_wine,3.0,0.01,mineral_water red_wine,2.0,ham,1.0,1.0,14.285714285714285
+412,153.0,ham mineral_water tomatoes,3.0,0.01,ham mineral_water,2.0,tomatoes,1.0,1.0,12.5
+413,153.0,ham mineral_water tomatoes,3.0,0.01,ham tomatoes,2.0,mineral_water,1.0,1.0,11.11111111111111
+414,153.0,ham mineral_water tomatoes,3.0,0.01,mineral_water tomatoes,2.0,ham,1.0,1.0,14.285714285714285
+415,154.0,ham pickles whole_wheat_pasta,3.0,0.01,ham pickles,2.0,whole_wheat_pasta,1.0,0.5,8.333333333333334
+416,154.0,ham pickles whole_wheat_pasta,3.0,0.01,ham whole_wheat_pasta,2.0,pickles,1.0,1.0,12.5
+417,154.0,ham pickles whole_wheat_pasta,3.0,0.01,pickles whole_wheat_pasta,2.0,ham,1.0,1.0,14.285714285714285
+418,155.0,ham red_wine tomatoes,3.0,0.01,ham red_wine,2.0,tomatoes,1.0,1.0,12.5
+419,155.0,ham red_wine tomatoes,3.0,0.01,ham tomatoes,2.0,red_wine,1.0,1.0,9.090909090909092
+420,155.0,ham red_wine tomatoes,3.0,0.01,red_wine tomatoes,2.0,ham,1.0,1.0,14.285714285714285
+421,156.0,low_fat_yogurt parmesan_cheese turkey,3.0,0.01,low_fat_yogurt,1.0,parmesan_cheese turkey,2.0,0.33333333333333337,16.666666666666668
+422,156.0,low_fat_yogurt parmesan_cheese turkey,3.0,0.01,low_fat_yogurt parmesan_cheese,2.0,turkey,1.0,1.0,16.666666666666668
+423,156.0,low_fat_yogurt parmesan_cheese turkey,3.0,0.01,low_fat_yogurt turkey,2.0,parmesan_cheese,1.0,1.0,12.5
+424,156.0,low_fat_yogurt parmesan_cheese turkey,3.0,0.01,parmesan_cheese turkey,2.0,low_fat_yogurt,1.0,0.5,16.666666666666668
+425,157.0,meatballs parmesan_cheese turkey,3.0,0.01,meatballs parmesan_cheese,2.0,turkey,1.0,1.0,16.666666666666668
+426,157.0,meatballs parmesan_cheese turkey,3.0,0.01,meatballs turkey,2.0,parmesan_cheese,1.0,1.0,12.5
+427,157.0,meatballs parmesan_cheese turkey,3.0,0.01,parmesan_cheese turkey,2.0,meatballs,1.0,0.5,5.555555555555555
+428,158.0,milk mineral_water whole_wheat_rice,3.0,0.01,milk mineral_water,2.0,whole_wheat_rice,1.0,0.5,10.0
+429,158.0,milk mineral_water whole_wheat_rice,3.0,0.01,milk whole_wheat_rice,2.0,mineral_water,1.0,1.0,11.11111111111111
+430,158.0,milk mineral_water whole_wheat_rice,3.0,0.01,mineral_water whole_wheat_rice,2.0,milk,1.0,1.0,16.666666666666668
+431,159.0,milk parmesan_cheese tomatoes,3.0,0.01,milk parmesan_cheese,2.0,tomatoes,1.0,1.0,12.5
+432,159.0,milk parmesan_cheese tomatoes,3.0,0.01,milk tomatoes,2.0,parmesan_cheese,1.0,1.0,12.5
+433,159.0,milk parmesan_cheese tomatoes,3.0,0.01,parmesan_cheese tomatoes,2.0,milk,1.0,1.0,16.666666666666668
+434,160.0,mineral_water olive_oil pancakes,3.0,0.01,mineral_water olive_oil,2.0,pancakes,1.0,1.0,12.5
+435,160.0,mineral_water olive_oil pancakes,3.0,0.01,mineral_water pancakes,2.0,olive_oil,1.0,0.5,5.555555555555555
+436,160.0,mineral_water olive_oil pancakes,3.0,0.01,olive_oil pancakes,2.0,mineral_water,1.0,1.0,11.11111111111111
+437,161.0,mineral_water olive_oil shrimp,3.0,0.01,mineral_water olive_oil,2.0,shrimp,1.0,1.0,20.0
+438,161.0,mineral_water olive_oil shrimp,3.0,0.01,mineral_water shrimp,2.0,olive_oil,1.0,1.0,11.11111111111111
+439,161.0,mineral_water olive_oil shrimp,3.0,0.01,olive_oil shrimp,2.0,mineral_water,1.0,1.0,11.11111111111111
+440,162.0,mineral_water pancakes pickles,3.0,0.01,mineral_water pancakes,2.0,pickles,1.0,0.5,6.25
+441,162.0,mineral_water pancakes pickles,3.0,0.01,mineral_water pickles,2.0,pancakes,1.0,1.0,12.5
+442,162.0,mineral_water pancakes pickles,3.0,0.01,pancakes pickles,2.0,mineral_water,1.0,0.5,5.555555555555555
+443,163.0,mineral_water pancakes shrimp,3.0,0.01,mineral_water pancakes,2.0,shrimp,1.0,0.5,10.0
+444,163.0,mineral_water pancakes shrimp,3.0,0.01,mineral_water shrimp,2.0,pancakes,1.0,1.0,12.5
+445,163.0,mineral_water pancakes shrimp,3.0,0.01,pancakes shrimp,2.0,mineral_water,1.0,1.0,11.11111111111111
+446,164.0,mineral_water red_wine tomatoes,3.0,0.01,mineral_water red_wine,2.0,tomatoes,1.0,1.0,12.5
+447,164.0,mineral_water red_wine tomatoes,3.0,0.01,mineral_water tomatoes,2.0,red_wine,1.0,1.0,9.090909090909092
+448,164.0,mineral_water red_wine tomatoes,3.0,0.01,red_wine tomatoes,2.0,mineral_water,1.0,1.0,11.11111111111111
+449,165.0,muffins pancakes pickles,3.0,0.01,muffins pancakes,2.0,pickles,1.0,1.0,12.5
+450,165.0,muffins pancakes pickles,3.0,0.01,muffins pickles,2.0,pancakes,1.0,1.0,12.5
+451,165.0,muffins pancakes pickles,3.0,0.01,pancakes pickles,2.0,muffins,1.0,0.5,4.166666666666667
+452,166.0,olive_oil pancakes shrimp,3.0,0.01,olive_oil pancakes,2.0,shrimp,1.0,1.0,20.0
+453,166.0,olive_oil pancakes shrimp,3.0,0.01,olive_oil shrimp,2.0,pancakes,1.0,1.0,12.5
+454,166.0,olive_oil pancakes shrimp,3.0,0.01,pancakes shrimp,2.0,olive_oil,1.0,1.0,11.11111111111111
+455,167.0,olive_oil parmesan_cheese red_wine,3.0,0.01,olive_oil parmesan_cheese,2.0,red_wine,1.0,1.0,9.090909090909092
+456,167.0,olive_oil parmesan_cheese red_wine,3.0,0.01,olive_oil red_wine,2.0,parmesan_cheese,1.0,0.33333333333333337,4.166666666666667
+457,167.0,olive_oil parmesan_cheese red_wine,3.0,0.01,parmesan_cheese red_wine,2.0,olive_oil,1.0,0.5,5.555555555555555
+458,168.0,pancakes pepper red_wine,3.0,0.01,pancakes pepper,2.0,red_wine,1.0,0.5,4.545454545454546
+459,168.0,pancakes pepper red_wine,3.0,0.01,pancakes red_wine,2.0,pepper,1.0,1.0,14.285714285714285
+460,168.0,pancakes pepper red_wine,3.0,0.01,pepper red_wine,2.0,pancakes,1.0,1.0,12.5
+461,169.0,pancakes pepper yogurt_cake,3.0,0.01,pancakes pepper,2.0,yogurt_cake,1.0,0.5,10.0
+462,169.0,pancakes pepper yogurt_cake,3.0,0.01,pancakes yogurt_cake,2.0,pepper,1.0,1.0,14.285714285714285
+463,169.0,pancakes pepper yogurt_cake,3.0,0.01,pepper yogurt_cake,2.0,pancakes,1.0,1.0,12.5
+464,170.0,parmesan_cheese shrimp soup,3.0,0.01,parmesan_cheese shrimp,2.0,soup,1.0,1.0,11.11111111111111
+465,170.0,parmesan_cheese shrimp soup,3.0,0.01,parmesan_cheese soup,2.0,shrimp,1.0,1.0,20.0
+466,170.0,parmesan_cheese shrimp soup,3.0,0.01,shrimp soup,2.0,parmesan_cheese,1.0,1.0,12.5
+467,171.0,pepper tomatoes whole_wheat_rice,3.0,0.01,pepper tomatoes,2.0,whole_wheat_rice,1.0,0.5,10.0
+468,171.0,pepper tomatoes whole_wheat_rice,3.0,0.01,pepper whole_wheat_rice,2.0,tomatoes,1.0,1.0,12.5
+469,171.0,pepper tomatoes whole_wheat_rice,3.0,0.01,tomatoes whole_wheat_rice,2.0,pepper,1.0,1.0,14.285714285714285
+470,172.0,burgers butter eggs frozen_vegetables,4.0,0.01,eggs,1.0,burgers butter frozen_vegetables,3.0,0.25,25.0
+471,172.0,burgers butter eggs frozen_vegetables,4.0,0.01,burgers butter,2.0,eggs frozen_vegetables,2.0,1.0,100.0
+472,172.0,burgers butter eggs frozen_vegetables,4.0,0.01,burgers eggs,2.0,butter frozen_vegetables,2.0,0.5,50.0
+473,172.0,burgers butter eggs frozen_vegetables,4.0,0.01,burgers frozen_vegetables,2.0,butter eggs,2.0,1.0,100.0
+474,172.0,burgers butter eggs frozen_vegetables,4.0,0.01,butter eggs,2.0,burgers frozen_vegetables,2.0,1.0,100.0
+475,172.0,burgers butter eggs frozen_vegetables,4.0,0.01,butter frozen_vegetables,2.0,burgers eggs,2.0,1.0,50.0
+476,172.0,burgers butter eggs frozen_vegetables,4.0,0.01,eggs frozen_vegetables,2.0,burgers butter,2.0,1.0,100.0
+477,172.0,burgers butter eggs frozen_vegetables,4.0,0.01,burgers butter eggs,3.0,frozen_vegetables,1.0,1.0,12.5
+478,172.0,burgers butter eggs frozen_vegetables,4.0,0.01,burgers butter frozen_vegetables,3.0,eggs,1.0,1.0,25.0
+479,172.0,burgers butter eggs frozen_vegetables,4.0,0.01,burgers eggs frozen_vegetables,3.0,butter,1.0,1.0,16.666666666666668
+480,172.0,burgers butter eggs frozen_vegetables,4.0,0.01,butter eggs frozen_vegetables,3.0,burgers,1.0,1.0,12.5
+481,173.0,burgers chicken frozen_smoothie meatballs,4.0,0.01,burgers chicken,2.0,frozen_smoothie meatballs,2.0,1.0,100.0
+482,173.0,burgers chicken frozen_smoothie meatballs,4.0,0.01,burgers frozen_smoothie,2.0,chicken meatballs,2.0,1.0,100.0
+483,173.0,burgers chicken frozen_smoothie meatballs,4.0,0.01,burgers meatballs,2.0,chicken frozen_smoothie,2.0,1.0,50.0
+484,173.0,burgers chicken frozen_smoothie meatballs,4.0,0.01,chicken frozen_smoothie,2.0,burgers meatballs,2.0,0.5,50.0
+485,173.0,burgers chicken frozen_smoothie meatballs,4.0,0.01,chicken meatballs,2.0,burgers frozen_smoothie,2.0,1.0,100.0
+486,173.0,burgers chicken frozen_smoothie meatballs,4.0,0.01,frozen_smoothie meatballs,2.0,burgers chicken,2.0,1.0,100.0
+487,173.0,burgers chicken frozen_smoothie meatballs,4.0,0.01,burgers chicken frozen_smoothie,3.0,meatballs,1.0,1.0,11.11111111111111
+488,173.0,burgers chicken frozen_smoothie meatballs,4.0,0.01,burgers chicken meatballs,3.0,frozen_smoothie,1.0,1.0,20.0
+489,173.0,burgers chicken frozen_smoothie meatballs,4.0,0.01,burgers frozen_smoothie meatballs,3.0,chicken,1.0,1.0,20.0
+490,173.0,burgers chicken frozen_smoothie meatballs,4.0,0.01,chicken frozen_smoothie meatballs,3.0,burgers,1.0,1.0,12.5
+491,174.0,burgers chicken frozen_smoothie soup,4.0,0.01,burgers chicken,2.0,frozen_smoothie soup,2.0,1.0,100.0
+492,174.0,burgers chicken frozen_smoothie soup,4.0,0.01,burgers frozen_smoothie,2.0,chicken soup,2.0,1.0,100.0
+493,174.0,burgers chicken frozen_smoothie soup,4.0,0.01,burgers soup,2.0,chicken frozen_smoothie,2.0,0.33333333333333337,16.666666666666668
+494,174.0,burgers chicken frozen_smoothie soup,4.0,0.01,chicken frozen_smoothie,2.0,burgers soup,2.0,0.5,16.666666666666668
+495,174.0,burgers chicken frozen_smoothie soup,4.0,0.01,chicken soup,2.0,burgers frozen_smoothie,2.0,1.0,100.0
+496,174.0,burgers chicken frozen_smoothie soup,4.0,0.01,frozen_smoothie soup,2.0,burgers chicken,2.0,1.0,100.0
+497,174.0,burgers chicken frozen_smoothie soup,4.0,0.01,burgers chicken frozen_smoothie,3.0,soup,1.0,1.0,11.11111111111111
+498,174.0,burgers chicken frozen_smoothie soup,4.0,0.01,burgers chicken soup,3.0,frozen_smoothie,1.0,1.0,20.0
+499,174.0,burgers chicken frozen_smoothie soup,4.0,0.01,burgers frozen_smoothie soup,3.0,chicken,1.0,1.0,20.0
+500,174.0,burgers chicken frozen_smoothie soup,4.0,0.01,chicken frozen_smoothie soup,3.0,burgers,1.0,1.0,12.5
+501,175.0,burgers chicken meatballs soup,4.0,0.01,burgers chicken,2.0,meatballs soup,2.0,1.0,100.0
+502,175.0,burgers chicken meatballs soup,4.0,0.01,burgers meatballs,2.0,chicken soup,2.0,1.0,100.0
+503,175.0,burgers chicken meatballs soup,4.0,0.01,burgers soup,2.0,chicken meatballs,2.0,0.33333333333333337,33.333333333333336
+504,175.0,burgers chicken meatballs soup,4.0,0.01,chicken meatballs,2.0,burgers soup,2.0,1.0,33.333333333333336
+505,175.0,burgers chicken meatballs soup,4.0,0.01,chicken soup,2.0,burgers meatballs,2.0,1.0,100.0
+506,175.0,burgers chicken meatballs soup,4.0,0.01,meatballs soup,2.0,burgers chicken,2.0,1.0,100.0
+507,175.0,burgers chicken meatballs soup,4.0,0.01,burgers chicken meatballs,3.0,soup,1.0,1.0,11.11111111111111
+508,175.0,burgers chicken meatballs soup,4.0,0.01,burgers chicken soup,3.0,meatballs,1.0,1.0,11.11111111111111
+509,175.0,burgers chicken meatballs soup,4.0,0.01,burgers meatballs soup,3.0,chicken,1.0,1.0,20.0
+510,175.0,burgers chicken meatballs soup,4.0,0.01,chicken meatballs soup,3.0,burgers,1.0,1.0,12.5
+511,176.0,burgers frozen_smoothie meatballs soup,4.0,0.01,burgers frozen_smoothie,2.0,meatballs soup,2.0,1.0,100.0
+512,176.0,burgers frozen_smoothie meatballs soup,4.0,0.01,burgers meatballs,2.0,frozen_smoothie soup,2.0,1.0,100.0
+513,176.0,burgers frozen_smoothie meatballs soup,4.0,0.01,burgers soup,2.0,frozen_smoothie meatballs,2.0,0.33333333333333337,33.333333333333336
+514,176.0,burgers frozen_smoothie meatballs soup,4.0,0.01,frozen_smoothie meatballs,2.0,burgers soup,2.0,1.0,33.333333333333336
+515,176.0,burgers frozen_smoothie meatballs soup,4.0,0.01,frozen_smoothie soup,2.0,burgers meatballs,2.0,1.0,100.0
+516,176.0,burgers frozen_smoothie meatballs soup,4.0,0.01,meatballs soup,2.0,burgers frozen_smoothie,2.0,1.0,100.0
+517,176.0,burgers frozen_smoothie meatballs soup,4.0,0.01,burgers frozen_smoothie meatballs,3.0,soup,1.0,1.0,11.11111111111111
+518,176.0,burgers frozen_smoothie meatballs soup,4.0,0.01,burgers frozen_smoothie soup,3.0,meatballs,1.0,1.0,11.11111111111111
+519,176.0,burgers frozen_smoothie meatballs soup,4.0,0.01,burgers meatballs soup,3.0,frozen_smoothie,1.0,1.0,20.0
+520,176.0,burgers frozen_smoothie meatballs soup,4.0,0.01,frozen_smoothie meatballs soup,3.0,burgers,1.0,1.0,12.5
+521,177.0,butter fresh_tuna low_fat_yogurt pancakes,4.0,0.01,low_fat_yogurt,1.0,butter fresh_tuna pancakes,3.0,0.33333333333333337,33.333333333333336
+522,177.0,butter fresh_tuna low_fat_yogurt pancakes,4.0,0.01,butter fresh_tuna,2.0,low_fat_yogurt pancakes,2.0,1.0,100.0
+523,177.0,butter fresh_tuna low_fat_yogurt pancakes,4.0,0.01,butter low_fat_yogurt,2.0,fresh_tuna pancakes,2.0,1.0,100.0
+524,177.0,butter fresh_tuna low_fat_yogurt pancakes,4.0,0.01,butter pancakes,2.0,fresh_tuna low_fat_yogurt,2.0,1.0,100.0
+525,177.0,butter fresh_tuna low_fat_yogurt pancakes,4.0,0.01,fresh_tuna low_fat_yogurt,2.0,butter pancakes,2.0,1.0,100.0
+526,177.0,butter fresh_tuna low_fat_yogurt pancakes,4.0,0.01,fresh_tuna pancakes,2.0,butter low_fat_yogurt,2.0,1.0,100.0
+527,177.0,butter fresh_tuna low_fat_yogurt pancakes,4.0,0.01,low_fat_yogurt pancakes,2.0,butter fresh_tuna,2.0,1.0,100.0
+528,177.0,butter fresh_tuna low_fat_yogurt pancakes,4.0,0.01,butter fresh_tuna low_fat_yogurt,3.0,pancakes,1.0,1.0,12.5
+529,177.0,butter fresh_tuna low_fat_yogurt pancakes,4.0,0.01,butter fresh_tuna pancakes,3.0,low_fat_yogurt,1.0,1.0,33.333333333333336
+530,177.0,butter fresh_tuna low_fat_yogurt pancakes,4.0,0.01,butter low_fat_yogurt pancakes,3.0,fresh_tuna,1.0,1.0,16.666666666666668
+531,177.0,butter fresh_tuna low_fat_yogurt pancakes,4.0,0.01,fresh_tuna low_fat_yogurt pancakes,3.0,butter,1.0,1.0,16.666666666666668
+532,178.0,butter pepper tomatoes whole_wheat_rice,4.0,0.01,butter pepper,2.0,tomatoes whole_wheat_rice,2.0,1.0,100.0
+533,178.0,butter pepper tomatoes whole_wheat_rice,4.0,0.01,butter tomatoes,2.0,pepper whole_wheat_rice,2.0,1.0,100.0
+534,178.0,butter pepper tomatoes whole_wheat_rice,4.0,0.01,butter whole_wheat_rice,2.0,pepper tomatoes,2.0,1.0,50.0
+535,178.0,butter pepper tomatoes whole_wheat_rice,4.0,0.01,pepper tomatoes,2.0,butter whole_wheat_rice,2.0,0.5,50.0
+536,178.0,butter pepper tomatoes whole_wheat_rice,4.0,0.01,pepper whole_wheat_rice,2.0,butter tomatoes,2.0,1.0,100.0
+537,178.0,butter pepper tomatoes whole_wheat_rice,4.0,0.01,tomatoes whole_wheat_rice,2.0,butter pepper,2.0,1.0,100.0
+538,178.0,butter pepper tomatoes whole_wheat_rice,4.0,0.01,butter pepper tomatoes,3.0,whole_wheat_rice,1.0,1.0,20.0
+539,178.0,butter pepper tomatoes whole_wheat_rice,4.0,0.01,butter pepper whole_wheat_rice,3.0,tomatoes,1.0,1.0,12.5
+540,178.0,butter pepper tomatoes whole_wheat_rice,4.0,0.01,butter tomatoes whole_wheat_rice,3.0,pepper,1.0,1.0,14.285714285714285
+541,178.0,butter pepper tomatoes whole_wheat_rice,4.0,0.01,pepper tomatoes whole_wheat_rice,3.0,butter,1.0,1.0,16.666666666666668
+542,179.0,champagne mineral_water olive_oil pancakes,4.0,0.01,champagne,1.0,mineral_water olive_oil pancakes,3.0,0.25,25.0
+543,179.0,champagne mineral_water olive_oil pancakes,4.0,0.01,champagne mineral_water,2.0,olive_oil pancakes,2.0,1.0,100.0
+544,179.0,champagne mineral_water olive_oil pancakes,4.0,0.01,champagne olive_oil,2.0,mineral_water pancakes,2.0,1.0,50.0
+545,179.0,champagne mineral_water olive_oil pancakes,4.0,0.01,champagne pancakes,2.0,mineral_water olive_oil,2.0,1.0,100.0
+546,179.0,champagne mineral_water olive_oil pancakes,4.0,0.01,mineral_water olive_oil,2.0,champagne pancakes,2.0,1.0,100.0
+547,179.0,champagne mineral_water olive_oil pancakes,4.0,0.01,mineral_water pancakes,2.0,champagne olive_oil,2.0,0.5,50.0
+548,179.0,champagne mineral_water olive_oil pancakes,4.0,0.01,olive_oil pancakes,2.0,champagne mineral_water,2.0,1.0,100.0
+549,179.0,champagne mineral_water olive_oil pancakes,4.0,0.01,champagne mineral_water olive_oil,3.0,pancakes,1.0,1.0,12.5
+550,179.0,champagne mineral_water olive_oil pancakes,4.0,0.01,champagne mineral_water pancakes,3.0,olive_oil,1.0,1.0,11.11111111111111
+551,179.0,champagne mineral_water olive_oil pancakes,4.0,0.01,champagne olive_oil pancakes,3.0,mineral_water,1.0,1.0,11.11111111111111
+552,179.0,champagne mineral_water olive_oil pancakes,4.0,0.01,mineral_water olive_oil pancakes,3.0,champagne,1.0,1.0,25.0
+553,180.0,champagne mineral_water olive_oil shrimp,4.0,0.01,champagne,1.0,mineral_water olive_oil shrimp,3.0,0.25,25.0
+554,180.0,champagne mineral_water olive_oil shrimp,4.0,0.01,champagne mineral_water,2.0,olive_oil shrimp,2.0,1.0,100.0
+555,180.0,champagne mineral_water olive_oil shrimp,4.0,0.01,champagne olive_oil,2.0,mineral_water shrimp,2.0,1.0,100.0
+556,180.0,champagne mineral_water olive_oil shrimp,4.0,0.01,champagne shrimp,2.0,mineral_water olive_oil,2.0,1.0,100.0
+557,180.0,champagne mineral_water olive_oil shrimp,4.0,0.01,mineral_water olive_oil,2.0,champagne shrimp,2.0,1.0,100.0
+558,180.0,champagne mineral_water olive_oil shrimp,4.0,0.01,mineral_water shrimp,2.0,champagne olive_oil,2.0,1.0,100.0
+559,180.0,champagne mineral_water olive_oil shrimp,4.0,0.01,olive_oil shrimp,2.0,champagne mineral_water,2.0,1.0,100.0
+560,180.0,champagne mineral_water olive_oil shrimp,4.0,0.01,champagne mineral_water olive_oil,3.0,shrimp,1.0,1.0,20.0
+561,180.0,champagne mineral_water olive_oil shrimp,4.0,0.01,champagne mineral_water shrimp,3.0,olive_oil,1.0,1.0,11.11111111111111
+562,180.0,champagne mineral_water olive_oil shrimp,4.0,0.01,champagne olive_oil shrimp,3.0,mineral_water,1.0,1.0,11.11111111111111
+563,180.0,champagne mineral_water olive_oil shrimp,4.0,0.01,mineral_water olive_oil shrimp,3.0,champagne,1.0,1.0,25.0
+564,181.0,champagne mineral_water pancakes shrimp,4.0,0.01,champagne,1.0,mineral_water pancakes shrimp,3.0,0.25,25.0
+565,181.0,champagne mineral_water pancakes shrimp,4.0,0.01,champagne mineral_water,2.0,pancakes shrimp,2.0,1.0,100.0
+566,181.0,champagne mineral_water pancakes shrimp,4.0,0.01,champagne pancakes,2.0,mineral_water shrimp,2.0,1.0,100.0
+567,181.0,champagne mineral_water pancakes shrimp,4.0,0.01,champagne shrimp,2.0,mineral_water pancakes,2.0,1.0,50.0
+568,181.0,champagne mineral_water pancakes shrimp,4.0,0.01,mineral_water pancakes,2.0,champagne shrimp,2.0,0.5,50.0
+569,181.0,champagne mineral_water pancakes shrimp,4.0,0.01,mineral_water shrimp,2.0,champagne pancakes,2.0,1.0,100.0
+570,181.0,champagne mineral_water pancakes shrimp,4.0,0.01,pancakes shrimp,2.0,champagne mineral_water,2.0,1.0,100.0
+571,181.0,champagne mineral_water pancakes shrimp,4.0,0.01,champagne mineral_water pancakes,3.0,shrimp,1.0,1.0,20.0
+572,181.0,champagne mineral_water pancakes shrimp,4.0,0.01,champagne mineral_water shrimp,3.0,pancakes,1.0,1.0,12.5
+573,181.0,champagne mineral_water pancakes shrimp,4.0,0.01,champagne pancakes shrimp,3.0,mineral_water,1.0,1.0,11.11111111111111
+574,181.0,champagne mineral_water pancakes shrimp,4.0,0.01,mineral_water pancakes shrimp,3.0,champagne,1.0,1.0,25.0
+575,182.0,champagne olive_oil pancakes shrimp,4.0,0.01,champagne,1.0,olive_oil pancakes shrimp,3.0,0.25,25.0
+576,182.0,champagne olive_oil pancakes shrimp,4.0,0.01,champagne olive_oil,2.0,pancakes shrimp,2.0,1.0,100.0
+577,182.0,champagne olive_oil pancakes shrimp,4.0,0.01,champagne pancakes,2.0,olive_oil shrimp,2.0,1.0,100.0
+578,182.0,champagne olive_oil pancakes shrimp,4.0,0.01,champagne shrimp,2.0,olive_oil pancakes,2.0,1.0,100.0
+579,182.0,champagne olive_oil pancakes shrimp,4.0,0.01,olive_oil pancakes,2.0,champagne shrimp,2.0,1.0,100.0
+580,182.0,champagne olive_oil pancakes shrimp,4.0,0.01,olive_oil shrimp,2.0,champagne pancakes,2.0,1.0,100.0
+581,182.0,champagne olive_oil pancakes shrimp,4.0,0.01,pancakes shrimp,2.0,champagne olive_oil,2.0,1.0,100.0
+582,182.0,champagne olive_oil pancakes shrimp,4.0,0.01,champagne olive_oil pancakes,3.0,shrimp,1.0,1.0,20.0
+583,182.0,champagne olive_oil pancakes shrimp,4.0,0.01,champagne olive_oil shrimp,3.0,pancakes,1.0,1.0,12.5
+584,182.0,champagne olive_oil pancakes shrimp,4.0,0.01,champagne pancakes shrimp,3.0,olive_oil,1.0,1.0,11.11111111111111
+585,182.0,champagne olive_oil pancakes shrimp,4.0,0.01,olive_oil pancakes shrimp,3.0,champagne,1.0,1.0,25.0
+586,183.0,chicken frozen_smoothie frozen_vegetables milk,4.0,0.01,chicken frozen_smoothie,2.0,frozen_vegetables milk,2.0,0.5,50.0
+587,183.0,chicken frozen_smoothie frozen_vegetables milk,4.0,0.01,chicken frozen_vegetables,2.0,frozen_smoothie milk,2.0,1.0,100.0
+588,183.0,chicken frozen_smoothie frozen_vegetables milk,4.0,0.01,chicken milk,2.0,frozen_smoothie frozen_vegetables,2.0,1.0,100.0
+589,183.0,chicken frozen_smoothie frozen_vegetables milk,4.0,0.01,frozen_smoothie frozen_vegetables,2.0,chicken milk,2.0,1.0,100.0
+590,183.0,chicken frozen_smoothie frozen_vegetables milk,4.0,0.01,frozen_smoothie milk,2.0,chicken frozen_vegetables,2.0,1.0,100.0
+591,183.0,chicken frozen_smoothie frozen_vegetables milk,4.0,0.01,frozen_vegetables milk,2.0,chicken frozen_smoothie,2.0,1.0,50.0
+592,183.0,chicken frozen_smoothie frozen_vegetables milk,4.0,0.01,chicken frozen_smoothie frozen_vegetables,3.0,milk,1.0,1.0,16.666666666666668
+593,183.0,chicken frozen_smoothie frozen_vegetables milk,4.0,0.01,chicken frozen_smoothie milk,3.0,frozen_vegetables,1.0,1.0,12.5
+594,183.0,chicken frozen_smoothie frozen_vegetables milk,4.0,0.01,chicken frozen_vegetables milk,3.0,frozen_smoothie,1.0,1.0,20.0
+595,183.0,chicken frozen_smoothie frozen_vegetables milk,4.0,0.01,frozen_smoothie frozen_vegetables milk,3.0,chicken,1.0,1.0,20.0
+596,184.0,chicken frozen_smoothie meatballs soup,4.0,0.01,chicken frozen_smoothie,2.0,meatballs soup,2.0,0.5,50.0
+597,184.0,chicken frozen_smoothie meatballs soup,4.0,0.01,chicken meatballs,2.0,frozen_smoothie soup,2.0,1.0,100.0
+598,184.0,chicken frozen_smoothie meatballs soup,4.0,0.01,chicken soup,2.0,frozen_smoothie meatballs,2.0,1.0,100.0
+599,184.0,chicken frozen_smoothie meatballs soup,4.0,0.01,frozen_smoothie meatballs,2.0,chicken soup,2.0,1.0,100.0
+600,184.0,chicken frozen_smoothie meatballs soup,4.0,0.01,frozen_smoothie soup,2.0,chicken meatballs,2.0,1.0,100.0
+601,184.0,chicken frozen_smoothie meatballs soup,4.0,0.01,meatballs soup,2.0,chicken frozen_smoothie,2.0,1.0,50.0
+602,184.0,chicken frozen_smoothie meatballs soup,4.0,0.01,chicken frozen_smoothie meatballs,3.0,soup,1.0,1.0,11.11111111111111
+603,184.0,chicken frozen_smoothie meatballs soup,4.0,0.01,chicken frozen_smoothie soup,3.0,meatballs,1.0,1.0,11.11111111111111
+604,184.0,chicken frozen_smoothie meatballs soup,4.0,0.01,chicken meatballs soup,3.0,frozen_smoothie,1.0,1.0,20.0
+605,184.0,chicken frozen_smoothie meatballs soup,4.0,0.01,frozen_smoothie meatballs soup,3.0,chicken,1.0,1.0,20.0
+606,185.0,chicken grated_cheese green_tea red_wine,4.0,0.01,chicken grated_cheese,2.0,green_tea red_wine,2.0,0.5,25.0
+607,185.0,chicken grated_cheese green_tea red_wine,4.0,0.01,chicken green_tea,2.0,grated_cheese red_wine,2.0,1.0,50.0
+608,185.0,chicken grated_cheese green_tea red_wine,4.0,0.01,chicken red_wine,2.0,grated_cheese green_tea,2.0,1.0,100.0
+609,185.0,chicken grated_cheese green_tea red_wine,4.0,0.01,grated_cheese green_tea,2.0,chicken red_wine,2.0,1.0,100.0
+610,185.0,chicken grated_cheese green_tea red_wine,4.0,0.01,grated_cheese red_wine,2.0,chicken green_tea,2.0,0.5,50.0
+611,185.0,chicken grated_cheese green_tea red_wine,4.0,0.01,green_tea red_wine,2.0,chicken grated_cheese,2.0,0.5,25.0
+612,185.0,chicken grated_cheese green_tea red_wine,4.0,0.01,chicken grated_cheese green_tea,3.0,red_wine,1.0,1.0,9.090909090909092
+613,185.0,chicken grated_cheese green_tea red_wine,4.0,0.01,chicken grated_cheese red_wine,3.0,green_tea,1.0,1.0,12.5
+614,185.0,chicken grated_cheese green_tea red_wine,4.0,0.01,chicken green_tea red_wine,3.0,grated_cheese,1.0,1.0,11.11111111111111
+615,185.0,chicken grated_cheese green_tea red_wine,4.0,0.01,grated_cheese green_tea red_wine,3.0,chicken,1.0,1.0,20.0
+616,186.0,chicken grated_cheese herb_&_pepper low_fat_yogurt,4.0,0.01,herb_&_pepper,1.0,chicken grated_cheese low_fat_yogurt,3.0,0.25,25.0
+617,186.0,chicken grated_cheese herb_&_pepper low_fat_yogurt,4.0,0.01,low_fat_yogurt,1.0,chicken grated_cheese herb_&_pepper,3.0,0.33333333333333337,33.333333333333336
+618,186.0,chicken grated_cheese herb_&_pepper low_fat_yogurt,4.0,0.01,chicken grated_cheese,2.0,herb_&_pepper low_fat_yogurt,2.0,0.5,50.0
+619,186.0,chicken grated_cheese herb_&_pepper low_fat_yogurt,4.0,0.01,chicken herb_&_pepper,2.0,grated_cheese low_fat_yogurt,2.0,1.0,100.0
+620,186.0,chicken grated_cheese herb_&_pepper low_fat_yogurt,4.0,0.01,chicken low_fat_yogurt,2.0,grated_cheese herb_&_pepper,2.0,1.0,100.0
+621,186.0,chicken grated_cheese herb_&_pepper low_fat_yogurt,4.0,0.01,grated_cheese herb_&_pepper,2.0,chicken low_fat_yogurt,2.0,1.0,100.0
+622,186.0,chicken grated_cheese herb_&_pepper low_fat_yogurt,4.0,0.01,grated_cheese low_fat_yogurt,2.0,chicken herb_&_pepper,2.0,1.0,100.0
+623,186.0,chicken grated_cheese herb_&_pepper low_fat_yogurt,4.0,0.01,herb_&_pepper low_fat_yogurt,2.0,chicken grated_cheese,2.0,1.0,50.0
+624,186.0,chicken grated_cheese herb_&_pepper low_fat_yogurt,4.0,0.01,chicken grated_cheese herb_&_pepper,3.0,low_fat_yogurt,1.0,1.0,33.333333333333336
+625,186.0,chicken grated_cheese herb_&_pepper low_fat_yogurt,4.0,0.01,chicken grated_cheese low_fat_yogurt,3.0,herb_&_pepper,1.0,1.0,25.0
+626,186.0,chicken grated_cheese herb_&_pepper low_fat_yogurt,4.0,0.01,chicken herb_&_pepper low_fat_yogurt,3.0,grated_cheese,1.0,1.0,11.11111111111111
+627,186.0,chicken grated_cheese herb_&_pepper low_fat_yogurt,4.0,0.01,grated_cheese herb_&_pepper low_fat_yogurt,3.0,chicken,1.0,1.0,20.0
+628,187.0,cookies escalope french_fries pancakes,4.0,0.01,cookies escalope,2.0,french_fries pancakes,2.0,1.0,100.0
+629,187.0,cookies escalope french_fries pancakes,4.0,0.01,cookies french_fries,2.0,escalope pancakes,2.0,1.0,100.0
+630,187.0,cookies escalope french_fries pancakes,4.0,0.01,cookies pancakes,2.0,escalope french_fries,2.0,1.0,50.0
+631,187.0,cookies escalope french_fries pancakes,4.0,0.01,escalope french_fries,2.0,cookies pancakes,2.0,0.5,50.0
+632,187.0,cookies escalope french_fries pancakes,4.0,0.01,escalope pancakes,2.0,cookies french_fries,2.0,1.0,100.0
+633,187.0,cookies escalope french_fries pancakes,4.0,0.01,french_fries pancakes,2.0,cookies escalope,2.0,1.0,100.0
+634,187.0,cookies escalope french_fries pancakes,4.0,0.01,cookies escalope french_fries,3.0,pancakes,1.0,1.0,12.5
+635,187.0,cookies escalope french_fries pancakes,4.0,0.01,cookies escalope pancakes,3.0,french_fries,1.0,1.0,11.11111111111111
+636,187.0,cookies escalope french_fries pancakes,4.0,0.01,cookies french_fries pancakes,3.0,escalope,1.0,1.0,8.333333333333334
+637,187.0,cookies escalope french_fries pancakes,4.0,0.01,escalope french_fries pancakes,3.0,cookies,1.0,1.0,20.0
+638,188.0,cookies frozen_smoothie ground_beef pickles,4.0,0.01,cookies frozen_smoothie,2.0,ground_beef pickles,2.0,1.0,100.0
+639,188.0,cookies frozen_smoothie ground_beef pickles,4.0,0.01,cookies ground_beef,2.0,frozen_smoothie pickles,2.0,1.0,50.0
+640,188.0,cookies frozen_smoothie ground_beef pickles,4.0,0.01,cookies pickles,2.0,frozen_smoothie ground_beef,2.0,1.0,100.0
+641,188.0,cookies frozen_smoothie ground_beef pickles,4.0,0.01,frozen_smoothie ground_beef,2.0,cookies pickles,2.0,1.0,100.0
+642,188.0,cookies frozen_smoothie ground_beef pickles,4.0,0.01,frozen_smoothie pickles,2.0,cookies ground_beef,2.0,0.5,50.0
+643,188.0,cookies frozen_smoothie ground_beef pickles,4.0,0.01,ground_beef pickles,2.0,cookies frozen_smoothie,2.0,1.0,100.0
+644,188.0,cookies frozen_smoothie ground_beef pickles,4.0,0.01,cookies frozen_smoothie ground_beef,3.0,pickles,1.0,1.0,12.5
+645,188.0,cookies frozen_smoothie ground_beef pickles,4.0,0.01,cookies frozen_smoothie pickles,3.0,ground_beef,1.0,1.0,16.666666666666668
+646,188.0,cookies frozen_smoothie ground_beef pickles,4.0,0.01,cookies ground_beef pickles,3.0,frozen_smoothie,1.0,1.0,20.0
+647,188.0,cookies frozen_smoothie ground_beef pickles,4.0,0.01,frozen_smoothie ground_beef pickles,3.0,cookies,1.0,1.0,20.0
+648,189.0,energy_bar fresh_tuna ham milk,4.0,0.01,energy_bar fresh_tuna,2.0,ham milk,2.0,1.0,100.0
+649,189.0,energy_bar fresh_tuna ham milk,4.0,0.01,energy_bar ham,2.0,fresh_tuna milk,2.0,1.0,100.0
+650,189.0,energy_bar fresh_tuna ham milk,4.0,0.01,energy_bar milk,2.0,fresh_tuna ham,2.0,1.0,100.0
+651,189.0,energy_bar fresh_tuna ham milk,4.0,0.01,fresh_tuna ham,2.0,energy_bar milk,2.0,1.0,100.0
+652,189.0,energy_bar fresh_tuna ham milk,4.0,0.01,fresh_tuna milk,2.0,energy_bar ham,2.0,1.0,100.0
+653,189.0,energy_bar fresh_tuna ham milk,4.0,0.01,ham milk,2.0,energy_bar fresh_tuna,2.0,1.0,100.0
+654,189.0,energy_bar fresh_tuna ham milk,4.0,0.01,energy_bar fresh_tuna ham,3.0,milk,1.0,1.0,16.666666666666668
+655,189.0,energy_bar fresh_tuna ham milk,4.0,0.01,energy_bar fresh_tuna milk,3.0,ham,1.0,1.0,14.285714285714285
+656,189.0,energy_bar fresh_tuna ham milk,4.0,0.01,energy_bar ham milk,3.0,fresh_tuna,1.0,1.0,16.666666666666668
+657,189.0,energy_bar fresh_tuna ham milk,4.0,0.01,fresh_tuna ham milk,3.0,energy_bar,1.0,1.0,16.666666666666668
+658,190.0,energy_bar fresh_tuna ham pickles,4.0,0.01,energy_bar fresh_tuna,2.0,ham pickles,2.0,1.0,50.0
+659,190.0,energy_bar fresh_tuna ham pickles,4.0,0.01,energy_bar ham,2.0,fresh_tuna pickles,2.0,1.0,100.0
+660,190.0,energy_bar fresh_tuna ham pickles,4.0,0.01,energy_bar pickles,2.0,fresh_tuna ham,2.0,1.0,100.0
+661,190.0,energy_bar fresh_tuna ham pickles,4.0,0.01,fresh_tuna ham,2.0,energy_bar pickles,2.0,1.0,100.0
+662,190.0,energy_bar fresh_tuna ham pickles,4.0,0.01,fresh_tuna pickles,2.0,energy_bar ham,2.0,1.0,100.0
+663,190.0,energy_bar fresh_tuna ham pickles,4.0,0.01,ham pickles,2.0,energy_bar fresh_tuna,2.0,0.5,50.0
+664,190.0,energy_bar fresh_tuna ham pickles,4.0,0.01,energy_bar fresh_tuna ham,3.0,pickles,1.0,1.0,12.5
+665,190.0,energy_bar fresh_tuna ham pickles,4.0,0.01,energy_bar fresh_tuna pickles,3.0,ham,1.0,1.0,14.285714285714285
+666,190.0,energy_bar fresh_tuna ham pickles,4.0,0.01,energy_bar ham pickles,3.0,fresh_tuna,1.0,1.0,16.666666666666668
+667,190.0,energy_bar fresh_tuna ham pickles,4.0,0.01,fresh_tuna ham pickles,3.0,energy_bar,1.0,1.0,16.666666666666668
+668,191.0,energy_bar fresh_tuna milk pickles,4.0,0.01,energy_bar fresh_tuna,2.0,milk pickles,2.0,1.0,100.0
+669,191.0,energy_bar fresh_tuna milk pickles,4.0,0.01,energy_bar milk,2.0,fresh_tuna pickles,2.0,1.0,100.0
+670,191.0,energy_bar fresh_tuna milk pickles,4.0,0.01,energy_bar pickles,2.0,fresh_tuna milk,2.0,1.0,100.0
+671,191.0,energy_bar fresh_tuna milk pickles,4.0,0.01,fresh_tuna milk,2.0,energy_bar pickles,2.0,1.0,100.0
+672,191.0,energy_bar fresh_tuna milk pickles,4.0,0.01,fresh_tuna pickles,2.0,energy_bar milk,2.0,1.0,100.0
+673,191.0,energy_bar fresh_tuna milk pickles,4.0,0.01,milk pickles,2.0,energy_bar fresh_tuna,2.0,1.0,100.0
+674,191.0,energy_bar fresh_tuna milk pickles,4.0,0.01,energy_bar fresh_tuna milk,3.0,pickles,1.0,1.0,12.5
+675,191.0,energy_bar fresh_tuna milk pickles,4.0,0.01,energy_bar fresh_tuna pickles,3.0,milk,1.0,1.0,16.666666666666668
+676,191.0,energy_bar fresh_tuna milk pickles,4.0,0.01,energy_bar milk pickles,3.0,fresh_tuna,1.0,1.0,16.666666666666668
+677,191.0,energy_bar fresh_tuna milk pickles,4.0,0.01,fresh_tuna milk pickles,3.0,energy_bar,1.0,1.0,16.666666666666668
+678,192.0,energy_bar ham milk pickles,4.0,0.01,energy_bar ham,2.0,milk pickles,2.0,1.0,100.0
+679,192.0,energy_bar ham milk pickles,4.0,0.01,energy_bar milk,2.0,ham pickles,2.0,1.0,50.0
+680,192.0,energy_bar ham milk pickles,4.0,0.01,energy_bar pickles,2.0,ham milk,2.0,1.0,100.0
+681,192.0,energy_bar ham milk pickles,4.0,0.01,ham milk,2.0,energy_bar pickles,2.0,1.0,100.0
+682,192.0,energy_bar ham milk pickles,4.0,0.01,ham pickles,2.0,energy_bar milk,2.0,0.5,50.0
+683,192.0,energy_bar ham milk pickles,4.0,0.01,milk pickles,2.0,energy_bar ham,2.0,1.0,100.0
+684,192.0,energy_bar ham milk pickles,4.0,0.01,energy_bar ham milk,3.0,pickles,1.0,1.0,12.5
+685,192.0,energy_bar ham milk pickles,4.0,0.01,energy_bar ham pickles,3.0,milk,1.0,1.0,16.666666666666668
+686,192.0,energy_bar ham milk pickles,4.0,0.01,energy_bar milk pickles,3.0,ham,1.0,1.0,14.285714285714285
+687,192.0,energy_bar ham milk pickles,4.0,0.01,ham milk pickles,3.0,energy_bar,1.0,1.0,16.666666666666668
+688,193.0,escalope frozen_vegetables shrimp spaghetti,4.0,0.01,spaghetti,1.0,escalope frozen_vegetables shrimp,3.0,0.25,25.0
+689,193.0,escalope frozen_vegetables shrimp spaghetti,4.0,0.01,escalope frozen_vegetables,2.0,shrimp spaghetti,2.0,1.0,100.0
+690,193.0,escalope frozen_vegetables shrimp spaghetti,4.0,0.01,escalope shrimp,2.0,frozen_vegetables spaghetti,2.0,1.0,100.0
+691,193.0,escalope frozen_vegetables shrimp spaghetti,4.0,0.01,escalope spaghetti,2.0,frozen_vegetables shrimp,2.0,1.0,100.0
+692,193.0,escalope frozen_vegetables shrimp spaghetti,4.0,0.01,frozen_vegetables shrimp,2.0,escalope spaghetti,2.0,1.0,100.0
+693,193.0,escalope frozen_vegetables shrimp spaghetti,4.0,0.01,frozen_vegetables spaghetti,2.0,escalope shrimp,2.0,1.0,100.0
+694,193.0,escalope frozen_vegetables shrimp spaghetti,4.0,0.01,shrimp spaghetti,2.0,escalope frozen_vegetables,2.0,1.0,100.0
+695,193.0,escalope frozen_vegetables shrimp spaghetti,4.0,0.01,escalope frozen_vegetables shrimp,3.0,spaghetti,1.0,1.0,25.0
+696,193.0,escalope frozen_vegetables shrimp spaghetti,4.0,0.01,escalope frozen_vegetables spaghetti,3.0,shrimp,1.0,1.0,20.0
+697,193.0,escalope frozen_vegetables shrimp spaghetti,4.0,0.01,escalope shrimp spaghetti,3.0,frozen_vegetables,1.0,1.0,12.5
+698,193.0,escalope frozen_vegetables shrimp spaghetti,4.0,0.01,frozen_vegetables shrimp spaghetti,3.0,escalope,1.0,1.0,8.333333333333334
+699,194.0,escalope meatballs parmesan_cheese turkey,4.0,0.01,escalope meatballs,2.0,parmesan_cheese turkey,2.0,1.0,50.0
+700,194.0,escalope meatballs parmesan_cheese turkey,4.0,0.01,escalope parmesan_cheese,2.0,meatballs turkey,2.0,0.5,50.0
+701,194.0,escalope meatballs parmesan_cheese turkey,4.0,0.01,escalope turkey,2.0,meatballs parmesan_cheese,2.0,0.5,50.0
+702,194.0,escalope meatballs parmesan_cheese turkey,4.0,0.01,meatballs parmesan_cheese,2.0,escalope turkey,2.0,1.0,50.0
+703,194.0,escalope meatballs parmesan_cheese turkey,4.0,0.01,meatballs turkey,2.0,escalope parmesan_cheese,2.0,1.0,50.0
+704,194.0,escalope meatballs parmesan_cheese turkey,4.0,0.01,parmesan_cheese turkey,2.0,escalope meatballs,2.0,0.5,50.0
+705,194.0,escalope meatballs parmesan_cheese turkey,4.0,0.01,escalope meatballs parmesan_cheese,3.0,turkey,1.0,1.0,16.666666666666668
+706,194.0,escalope meatballs parmesan_cheese turkey,4.0,0.01,escalope meatballs turkey,3.0,parmesan_cheese,1.0,1.0,12.5
+707,194.0,escalope meatballs parmesan_cheese turkey,4.0,0.01,escalope parmesan_cheese turkey,3.0,meatballs,1.0,1.0,11.11111111111111
+708,194.0,escalope meatballs parmesan_cheese turkey,4.0,0.01,meatballs parmesan_cheese turkey,3.0,escalope,1.0,1.0,8.333333333333334
+709,195.0,french_fries green_tea muffins red_wine,4.0,0.01,french_fries green_tea,2.0,muffins red_wine,2.0,0.5,50.0
+710,195.0,french_fries green_tea muffins red_wine,4.0,0.01,french_fries muffins,2.0,green_tea red_wine,2.0,0.33333333333333337,16.666666666666668
+711,195.0,french_fries green_tea muffins red_wine,4.0,0.01,french_fries red_wine,2.0,green_tea muffins,2.0,1.0,100.0
+712,195.0,french_fries green_tea muffins red_wine,4.0,0.01,green_tea muffins,2.0,french_fries red_wine,2.0,1.0,100.0
+713,195.0,french_fries green_tea muffins red_wine,4.0,0.01,green_tea red_wine,2.0,french_fries muffins,2.0,0.5,16.666666666666668
+714,195.0,french_fries green_tea muffins red_wine,4.0,0.01,muffins red_wine,2.0,french_fries green_tea,2.0,1.0,50.0
+715,195.0,french_fries green_tea muffins red_wine,4.0,0.01,french_fries green_tea muffins,3.0,red_wine,1.0,1.0,9.090909090909092
+716,195.0,french_fries green_tea muffins red_wine,4.0,0.01,french_fries green_tea red_wine,3.0,muffins,1.0,1.0,8.333333333333334
+717,195.0,french_fries green_tea muffins red_wine,4.0,0.01,french_fries muffins red_wine,3.0,green_tea,1.0,1.0,12.5
+718,195.0,french_fries green_tea muffins red_wine,4.0,0.01,green_tea muffins red_wine,3.0,french_fries,1.0,1.0,11.11111111111111
+719,196.0,fresh_tuna ham milk pickles,4.0,0.01,fresh_tuna ham,2.0,milk pickles,2.0,1.0,100.0
+720,196.0,fresh_tuna ham milk pickles,4.0,0.01,fresh_tuna milk,2.0,ham pickles,2.0,1.0,50.0
+721,196.0,fresh_tuna ham milk pickles,4.0,0.01,fresh_tuna pickles,2.0,ham milk,2.0,1.0,100.0
+722,196.0,fresh_tuna ham milk pickles,4.0,0.01,ham milk,2.0,fresh_tuna pickles,2.0,1.0,100.0
+723,196.0,fresh_tuna ham milk pickles,4.0,0.01,ham pickles,2.0,fresh_tuna milk,2.0,0.5,50.0
+724,196.0,fresh_tuna ham milk pickles,4.0,0.01,milk pickles,2.0,fresh_tuna ham,2.0,1.0,100.0
+725,196.0,fresh_tuna ham milk pickles,4.0,0.01,fresh_tuna ham milk,3.0,pickles,1.0,1.0,12.5
+726,196.0,fresh_tuna ham milk pickles,4.0,0.01,fresh_tuna ham pickles,3.0,milk,1.0,1.0,16.666666666666668
+727,196.0,fresh_tuna ham milk pickles,4.0,0.01,fresh_tuna milk pickles,3.0,ham,1.0,1.0,14.285714285714285
+728,196.0,fresh_tuna ham milk pickles,4.0,0.01,ham milk pickles,3.0,fresh_tuna,1.0,1.0,16.666666666666668
+729,197.0,ham mineral_water red_wine tomatoes,4.0,0.01,ham mineral_water,2.0,red_wine tomatoes,2.0,1.0,100.0
+730,197.0,ham mineral_water red_wine tomatoes,4.0,0.01,ham red_wine,2.0,mineral_water tomatoes,2.0,1.0,100.0
+731,197.0,ham mineral_water red_wine tomatoes,4.0,0.01,ham tomatoes,2.0,mineral_water red_wine,2.0,1.0,100.0
+732,197.0,ham mineral_water red_wine tomatoes,4.0,0.01,mineral_water red_wine,2.0,ham tomatoes,2.0,1.0,100.0
+733,197.0,ham mineral_water red_wine tomatoes,4.0,0.01,mineral_water tomatoes,2.0,ham red_wine,2.0,1.0,100.0
+734,197.0,ham mineral_water red_wine tomatoes,4.0,0.01,red_wine tomatoes,2.0,ham mineral_water,2.0,1.0,100.0
+735,197.0,ham mineral_water red_wine tomatoes,4.0,0.01,ham mineral_water red_wine,3.0,tomatoes,1.0,1.0,12.5
+736,197.0,ham mineral_water red_wine tomatoes,4.0,0.01,ham mineral_water tomatoes,3.0,red_wine,1.0,1.0,9.090909090909092
+737,197.0,ham mineral_water red_wine tomatoes,4.0,0.01,ham red_wine tomatoes,3.0,mineral_water,1.0,1.0,11.11111111111111
+738,197.0,ham mineral_water red_wine tomatoes,4.0,0.01,mineral_water red_wine tomatoes,3.0,ham,1.0,1.0,14.285714285714285
+739,198.0,mineral_water olive_oil pancakes shrimp,4.0,0.01,mineral_water olive_oil,2.0,pancakes shrimp,2.0,1.0,100.0
+740,198.0,mineral_water olive_oil pancakes shrimp,4.0,0.01,mineral_water pancakes,2.0,olive_oil shrimp,2.0,0.5,50.0
+741,198.0,mineral_water olive_oil pancakes shrimp,4.0,0.01,mineral_water shrimp,2.0,olive_oil pancakes,2.0,1.0,100.0
+742,198.0,mineral_water olive_oil pancakes shrimp,4.0,0.01,olive_oil pancakes,2.0,mineral_water shrimp,2.0,1.0,100.0
+743,198.0,mineral_water olive_oil pancakes shrimp,4.0,0.01,olive_oil shrimp,2.0,mineral_water pancakes,2.0,1.0,50.0
+744,198.0,mineral_water olive_oil pancakes shrimp,4.0,0.01,pancakes shrimp,2.0,mineral_water olive_oil,2.0,1.0,100.0
+745,198.0,mineral_water olive_oil pancakes shrimp,4.0,0.01,mineral_water olive_oil pancakes,3.0,shrimp,1.0,1.0,20.0
+746,198.0,mineral_water olive_oil pancakes shrimp,4.0,0.01,mineral_water olive_oil shrimp,3.0,pancakes,1.0,1.0,12.5
+747,198.0,mineral_water olive_oil pancakes shrimp,4.0,0.01,mineral_water pancakes shrimp,3.0,olive_oil,1.0,1.0,11.11111111111111
+748,198.0,mineral_water olive_oil pancakes shrimp,4.0,0.01,olive_oil pancakes shrimp,3.0,mineral_water,1.0,1.0,11.11111111111111
+749,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers chicken,2.0,frozen_smoothie meatballs soup,3.0,1.0,100.0
+750,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers frozen_smoothie,2.0,chicken meatballs soup,3.0,1.0,100.0
+751,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers meatballs,2.0,chicken frozen_smoothie soup,3.0,1.0,100.0
+752,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers soup,2.0,chicken frozen_smoothie meatballs,3.0,0.33333333333333337,33.333333333333336
+753,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,chicken frozen_smoothie,2.0,burgers meatballs soup,3.0,0.5,50.0
+754,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,chicken meatballs,2.0,burgers frozen_smoothie soup,3.0,1.0,100.0
+755,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,chicken soup,2.0,burgers frozen_smoothie meatballs,3.0,1.0,100.0
+756,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,frozen_smoothie meatballs,2.0,burgers chicken soup,3.0,1.0,100.0
+757,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,frozen_smoothie soup,2.0,burgers chicken meatballs,3.0,1.0,100.0
+758,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,meatballs soup,2.0,burgers chicken frozen_smoothie,3.0,1.0,100.0
+759,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers chicken frozen_smoothie,3.0,meatballs soup,2.0,1.0,100.0
+760,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers chicken meatballs,3.0,frozen_smoothie soup,2.0,1.0,100.0
+761,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers chicken soup,3.0,frozen_smoothie meatballs,2.0,1.0,100.0
+762,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers frozen_smoothie meatballs,3.0,chicken soup,2.0,1.0,100.0
+763,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers frozen_smoothie soup,3.0,chicken meatballs,2.0,1.0,100.0
+764,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers meatballs soup,3.0,chicken frozen_smoothie,2.0,1.0,50.0
+765,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,chicken frozen_smoothie meatballs,3.0,burgers soup,2.0,1.0,33.333333333333336
+766,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,chicken frozen_smoothie soup,3.0,burgers meatballs,2.0,1.0,100.0
+767,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,chicken meatballs soup,3.0,burgers frozen_smoothie,2.0,1.0,100.0
+768,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,frozen_smoothie meatballs soup,3.0,burgers chicken,2.0,1.0,100.0
+769,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers chicken frozen_smoothie meatballs,4.0,soup,1.0,1.0,11.11111111111111
+770,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers chicken frozen_smoothie soup,4.0,meatballs,1.0,1.0,11.11111111111111
+771,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers chicken meatballs soup,4.0,frozen_smoothie,1.0,1.0,20.0
+772,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,burgers frozen_smoothie meatballs soup,4.0,chicken,1.0,1.0,20.0
+773,199.0,burgers chicken frozen_smoothie meatballs soup,5.0,0.01,chicken frozen_smoothie meatballs soup,4.0,burgers,1.0,1.0,12.5
+774,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne,1.0,mineral_water olive_oil pancakes shrimp,4.0,0.25,25.0
+775,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne mineral_water,2.0,olive_oil pancakes shrimp,3.0,1.0,100.0
+776,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne olive_oil,2.0,mineral_water pancakes shrimp,3.0,1.0,100.0
+777,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne pancakes,2.0,mineral_water olive_oil shrimp,3.0,1.0,100.0
+778,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne shrimp,2.0,mineral_water olive_oil pancakes,3.0,1.0,100.0
+779,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,mineral_water olive_oil,2.0,champagne pancakes shrimp,3.0,1.0,100.0
+780,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,mineral_water pancakes,2.0,champagne olive_oil shrimp,3.0,0.5,50.0
+781,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,mineral_water shrimp,2.0,champagne olive_oil pancakes,3.0,1.0,100.0
+782,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,olive_oil pancakes,2.0,champagne mineral_water shrimp,3.0,1.0,100.0
+783,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,olive_oil shrimp,2.0,champagne mineral_water pancakes,3.0,1.0,100.0
+784,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,pancakes shrimp,2.0,champagne mineral_water olive_oil,3.0,1.0,100.0
+785,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne mineral_water olive_oil,3.0,pancakes shrimp,2.0,1.0,100.0
+786,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne mineral_water pancakes,3.0,olive_oil shrimp,2.0,1.0,100.0
+787,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne mineral_water shrimp,3.0,olive_oil pancakes,2.0,1.0,100.0
+788,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne olive_oil pancakes,3.0,mineral_water shrimp,2.0,1.0,100.0
+789,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne olive_oil shrimp,3.0,mineral_water pancakes,2.0,1.0,50.0
+790,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne pancakes shrimp,3.0,mineral_water olive_oil,2.0,1.0,100.0
+791,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,mineral_water olive_oil pancakes,3.0,champagne shrimp,2.0,1.0,100.0
+792,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,mineral_water olive_oil shrimp,3.0,champagne pancakes,2.0,1.0,100.0
+793,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,mineral_water pancakes shrimp,3.0,champagne olive_oil,2.0,1.0,100.0
+794,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,olive_oil pancakes shrimp,3.0,champagne mineral_water,2.0,1.0,100.0
+795,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne mineral_water olive_oil pancakes,4.0,shrimp,1.0,1.0,20.0
+796,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne mineral_water olive_oil shrimp,4.0,pancakes,1.0,1.0,12.5
+797,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne mineral_water pancakes shrimp,4.0,olive_oil,1.0,1.0,11.11111111111111
+798,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,champagne olive_oil pancakes shrimp,4.0,mineral_water,1.0,1.0,11.11111111111111
+799,200.0,champagne mineral_water olive_oil pancakes shrimp,5.0,0.01,mineral_water olive_oil pancakes shrimp,4.0,champagne,1.0,1.0,25.0
+800,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar fresh_tuna,2.0,ham milk pickles,3.0,1.0,100.0
+801,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar ham,2.0,fresh_tuna milk pickles,3.0,1.0,100.0
+802,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar milk,2.0,fresh_tuna ham pickles,3.0,1.0,100.0
+803,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar pickles,2.0,fresh_tuna ham milk,3.0,1.0,100.0
+804,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,fresh_tuna ham,2.0,energy_bar milk pickles,3.0,1.0,100.0
+805,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,fresh_tuna milk,2.0,energy_bar ham pickles,3.0,1.0,100.0
+806,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,fresh_tuna pickles,2.0,energy_bar ham milk,3.0,1.0,100.0
+807,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,ham milk,2.0,energy_bar fresh_tuna pickles,3.0,1.0,100.0
+808,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,ham pickles,2.0,energy_bar fresh_tuna milk,3.0,0.5,50.0
+809,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,milk pickles,2.0,energy_bar fresh_tuna ham,3.0,1.0,100.0
+810,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar fresh_tuna ham,3.0,milk pickles,2.0,1.0,100.0
+811,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar fresh_tuna milk,3.0,ham pickles,2.0,1.0,50.0
+812,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar fresh_tuna pickles,3.0,ham milk,2.0,1.0,100.0
+813,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar ham milk,3.0,fresh_tuna pickles,2.0,1.0,100.0
+814,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar ham pickles,3.0,fresh_tuna milk,2.0,1.0,100.0
+815,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar milk pickles,3.0,fresh_tuna ham,2.0,1.0,100.0
+816,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,fresh_tuna ham milk,3.0,energy_bar pickles,2.0,1.0,100.0
+817,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,fresh_tuna ham pickles,3.0,energy_bar milk,2.0,1.0,100.0
+818,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,fresh_tuna milk pickles,3.0,energy_bar ham,2.0,1.0,100.0
+819,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,ham milk pickles,3.0,energy_bar fresh_tuna,2.0,1.0,100.0
+820,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar fresh_tuna ham milk,4.0,pickles,1.0,1.0,12.5
+821,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar fresh_tuna ham pickles,4.0,milk,1.0,1.0,16.666666666666668
+822,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar fresh_tuna milk pickles,4.0,ham,1.0,1.0,14.285714285714285
+823,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,energy_bar ham milk pickles,4.0,fresh_tuna,1.0,1.0,16.666666666666668
+824,201.0,energy_bar fresh_tuna ham milk pickles,5.0,0.01,fresh_tuna ham milk pickles,4.0,energy_bar,1.0,1.0,16.666666666666668

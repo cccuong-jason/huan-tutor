@@ -1,0 +1,35 @@
+/* Suggest */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 16px;
+    background: #74ebd5;
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+}
+
+ul {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    list-style-type: none;
+    padding-left: 48px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.btn {
+    background-color: #555;
+    color: #fff;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    padding: 12px 36px;
+    transition: opacity 0.2s linear;
+    min-width: 140px;
+    font-size: 18px;
+    text-decoration: none;
+}
