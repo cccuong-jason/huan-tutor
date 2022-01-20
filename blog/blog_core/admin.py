@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Post
+from .models import Post, Test
 
 # Register your models here.
 class PostAdmin(admin.ModelAdmin):
@@ -11,4 +11,13 @@ class PostAdmin(admin.ModelAdmin):
 	prepopulated_fields = {'slug': ('title',)}
 
 admin.site.register(Post, PostAdmin)
+
+class TestAdmin(admin.ModelAdmin):
+
+	readonly_fields = ('id',)
+	
+	class Meta:
+		model = Test
+
+admin.site.register(Test, TestAdmin)
 
