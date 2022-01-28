@@ -4,6 +4,6 @@ from django.urls import path
 urlpatterns = [
 	path('list_product',views.get_product, name='list'),
 	path('post_create',views.create, name='create'),
-	path('post_update/<int:id>',views.update, name='update'),
-	path('post_delete/<int:id>',views.delete, name='delte'),
+	path('post_update/<str:slug>',views.update, name='update'),
+	path('post_delete/<str:slug>',views.delete, name='delete'),
 ]
